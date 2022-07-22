@@ -40,16 +40,7 @@ else
     echo "deb-get-test is not installed"
 fi
 
-if [ $(command -v deb-get) ]; then
-
-    echo "deb-get is installed as " $(command -v deb-get)
-    echo -n "deb-get installed version: "; $(command -v deb-get) version
-
-    diff -qs $(command -v deb-get-testing) $(command -v deb-get) #|| echo "These should differ because we installed the main version with testing:" ;echo
-
-else
-    echo "deb-get is not installed"
-fi
+diff -qs $(command -v deb-get-testing) $(command -v deb-get) #|| echo "These should differ because we installed the main version with testing:" ;echo
 
 cat <<EOT
 
@@ -60,3 +51,9 @@ cat <<EOT
 
 
 EOT
+
+# this is the diff against where we're checked out to
+# # except we now checkout the branch with the test scripts on to test the testing script
+# # on a matrix of OSes in runners ....
+##
+diff -qs $(command -v deb-get-testing) deb-get && echo "These should not differ if we are checked out on testing - this is OK"
