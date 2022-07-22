@@ -1,0 +1,68 @@
+name: Tests
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - debian-*
+      - 'test-**'
+    paths:
+      - 'deb-get'
+      - '.github/workflows/*.yml'
+
+ # pull_request:
+
+permissions:
+  contents: read
+  # Needed for the 'trilom/file-changes-action' action
+  pull-requests: read
+
+# This allows a subsequently queued workflow run to interrupt previous runs
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+  cancel-in-progress: true
+
+jobs:
+  Tests:
+    strategy:
+      matrix:
+        os: [debian-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && export DEBIAN_FRONTEND=noninteractive
+          sudo apt-get -y install --no-install-recommends curl
+       # jq curl shellcheck file
+      - name: Check out testing branch code
+        uses: actions/checkout@v3
+        with:
+          ref: testing
+      #- name: Check out ubuntu test code
+      #  uses: actions/checkout@v3
+      #  with:
+      #    ref: ubuntu-testing
+      #    path: ubuntu
+      - name: Check out debian test code
+        uses: actions/checkout@v3
+        with:
+          ref: debian-testing
+          path: debian
+      - name: Run tests
+        run: |
+          MYOS=$(grep '^ID=' /etc/os-release | cut -d= -f2)
+          ${GITHUB_WORKSPACE}/${MYOS}/tests/01test-deb-get-is-installed.sh | tee -a testing-run.log
+          ${GITHUB_WORKSPACE}/${MYOS}/tests/02test-install-apps.sh |tee -a testing-run.log
+          ${GITHUB_WORKSPACE}/${MYOS}/tests/05test-deb-get-list.sh |tee -a testing-run.log
+
+      # Creates file "$/files.json", among others
+      #- name: Gather files changed
+      #  uses: trilom/file-changes-action@a6ca26c14274c33b15e6499323aac178af06ad4b
+      #  with:
+      #    fileOutput: 'json'
+
+      # For verification
+      #- name: Show files changed
+      #  run: cat $HOME/files.json
+
+# list artifacts
+# upload artifacts ?
