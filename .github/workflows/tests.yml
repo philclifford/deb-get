@@ -31,13 +31,27 @@ jobs:
         run: |
           sudo apt-get update && export DEBIAN_FRONTEND=noninteractive
           sudo apt-get -y install --no-install-recommends jq curl shellcheck file
-      - name: Check out code
+      - name: Check out testing branch code
         uses: actions/checkout@v3
+        with:
+          ref: testing
+      - name: Check out ubuntu test code
+        uses: actions/checkout@v3
+        with:
+          ref: ubuntu-testing
+          path: ubuntu
+      - name: Check out debian test code
+        uses: actions/checkout@v3
+        with:
+          ref: debian-testing
+          path: debian
       - name: Run tests
         run: |
-          ./tests/01test-deb-get-is-installed.sh
-          ./tests/02test-install-apps.sh
-          ./tests/05test-deb-get-list.sh
+          mv tests tests-from-testing
+          ln -sf $(grep '^ID=' /etc/os-release | cut -d= -f2)-testing/tests .
+          ./tests/01test-deb-get-is-installed.sh | tee -a testing-run.log
+          ./tests/02test-install-apps.sh |tee -a testing-run.log
+          ./tests/05test-deb-get-list.sh |tee -a testing-run.log
 
       # Creates file "$/files.json", among others
       #- name: Gather files changed

@@ -6,5 +6,5 @@ cd "$DIR" || exit 1
 set -e
 shopt -s nocasematch
 
-deb-get-testing list |tee -a testrun.log
+deb-get-testing list #|tee -a testrun.log
 deb-get-testing csvlist >report_postinstall.csv
