@@ -9,7 +9,7 @@ jobs:
   Tests:
     strategy:
       matrix:
-        - os: [ubuntu-latest, debian-latest]
+        os: [ubuntu-latest, debian-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
