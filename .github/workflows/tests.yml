@@ -1,44 +1,53 @@
-#!/usr/bin/env bash
+name: Tests
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - testing
+      - 'test-**'
+    paths:
+      - 'deb-get'
 
-#
+ # pull_request:
 
+permissions:
+  contents: read
+  # Needed for the 'trilom/file-changes-action' action
+  pull-requests: read
 
-DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../" && pwd)"
-cd "$DIR" || exit 1
+# This allows a subsequently queued workflow run to interrupt previous runs
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+  cancel-in-progress: true
 
-set -e
+jobs:
+  Tests:
+    strategy:
+      matrix:
+        - os: [ "ubuntu-latest", "debian-latest" ]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && export DEBIAN_FRONTEND=noninteractive
+          sudo apt-get -y install --no-install-recommends jq curl shellcheck file
+      - name: Check out code
+        uses: actions/checkout@v3
+      - name: Run tests
+        run: |
+          ./tests/01test-deb-get-is-installed.sh
+          ./tests/02test-install-apps.sh
+          ./tests/05test-deb-get-list.sh
 
-#sudo rm -f "$(command -v deb-get)"
+      # Creates file "$/files.json", among others
+      #- name: Gather files changed
+      #  uses: trilom/file-changes-action@a6ca26c14274c33b15e6499323aac178af06ad4b
+      #  with:
+      #    fileOutput: 'json'
 
-# This is the same code as in the README.md
+      # For verification
+      #- name: Show files changed
+      #  run: cat $HOME/files.json
 
-#sudo curl -SsL https://raw.githubusercontent.com/philclifford/deb-get/testing/deb-get -o /usr/bin/deb-get-testing
-#sudo chmod +x /usr/bin/deb-get-testing
-
-testos=$(grep '^ID=' /etc/os-release |cut -d\=  -f2)
-git checkout ${testos}-testing
-
-if ! command -v deb-get >/dev/null; then
-    echo "deb-get is not installed, but should be!" >&2
-    exit 1
-fi
-
-#diff $(command -v deb-get) /usr/bin/deb-get-testing
-sudo curl -sL https://raw.githubusercontent.com/philclifford/deb-get/testing/deb-get -o /usr/bin/deb-get-testing \
-&& sudo chmod 755 /usr/bin/deb-get-testing \
-&& echo deb-get-testing installed
-
-diff -qs $(command -v deb-get-testing) $(command -v deb-get) || echo "These should differ because we installed the main version with testing:" ;echo
-
-cat <<EOT
-
-    the container build uses testing script to install main from upstream so it will be different
-    but proves that the testing script works to a point and the build installed it OK too
-
-
-EOT
-
-# this is the diff against where we're checked out to
-# # except we now checkout the branch with the test scripts on to test the testing script
-# # on a matrix of OSes in runners ....
-##diff -qs $(command -v deb-get-testing) deb-get && echo "These should not differ if we are checked out on testing - this is OK"
+# list artifacts
+# upload artifacts ?
