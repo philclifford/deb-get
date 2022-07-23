@@ -11,23 +11,38 @@ DIRECT=""
 #don't try igdm  - not fun getting graphical stuff to test on container
 PPA="yq"
 #copyq is yooj and much gui depends
-GITHUB="zenith lsd mergerfs git-delta duf bat"
+GITHUB="zenith lsd git-delta duf bat"
 ISSUES="fd mergerfs"
 WEBSITE=""
 #"strawberry" # is too yooj to use in the smoke testing
 # GUI="sleek"
 
+if [ ! "$(command -v deb-get-testing)" ]; then
 
 for testapp in ${DIRECT} ${PPA} ${GITHUB} ${WEBSITE} ${ISSUES}
-do
+    do
+
+        #
+        echo "Testing ${testapp} install with $(command -v deb-get-testing)"
+        deb-get-testing show "${testapp}"
+        deb-get-testing install ${testapp}
+        deb-get-testing show "${testapp}"
+        echo "-----------------------------------------------"
+    done
+else
+    echo "WARN: did not get my testing - trying with checked out file"
+    for testapp in ${DIRECT} ${PPA} ${GITHUB} ${WEBSITE} ${ISSUES}
+    do
 
     #
     echo "Testing ${testapp} install with $(command -v deb-get-testing)"
-    deb-get-testing show "${testapp}"
-    deb-get-testing install ${testapp}
-    deb-get-testing show "${testapp}"
+    ./deb-get show "${testapp}"
+    ./deb-get install ${testapp}
+    ./deb-get show "${testapp}"
     echo "-----------------------------------------------"
-done
+    done
+
+fi
 
 echo Completed test installations of ${DIRECT} ${PPA} ${GITHUB} ${WEBSITE} ${ISSUES}
 echo "==================================================================================================================="
