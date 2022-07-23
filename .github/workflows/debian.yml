@@ -1,10 +1,9 @@
-name: Tests
+name: Debian Tests
 on:
   workflow_dispatch:
   push:
     branches:
       - debian-*
-      - 'test-**'
     paths:
       - 'deb-get'
       - '.github/workflows/*.yml'
