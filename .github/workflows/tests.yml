@@ -25,7 +25,7 @@ jobs:
   Tests:
     strategy:
       matrix:
-        os: [ubuntu-latest, debian-latest]
+        os: [ubuntu-latest, debian-latest,mint]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Install dependencies
