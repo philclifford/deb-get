@@ -25,7 +25,7 @@ jobs:
     strategy:
       matrix:
         os: [debian-latest]
-    runs-on: ${{ matrix.os }}
+    runs-on: self-hosted
     steps:
       - name: Install dependencies
         run: |
