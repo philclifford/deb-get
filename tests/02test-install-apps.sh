@@ -25,7 +25,7 @@ for testapp in ${DIRECT} ${PPA} ${GITHUB} ${WEBSITE} ${ISSUES}
         #
         echo "Testing ${testapp} install with $(command -v deb-get-testing)"
         deb-get-testing show "${testapp}"
-        deb-get-testing install ${testapp}
+        deb-get-testing install ${testapp} >/dev/null && echo installation of "${testapp}" completed
         deb-get-testing show "${testapp}"
         echo "-----------------------------------------------"
     done
@@ -35,7 +35,7 @@ else
     do
 
     #
-    echo "Testing ${testapp} install with $(command -v deb-get-testing)"
+    echo "Testing ${testapp} install with ./deb-get"
     ./deb-get show "${testapp}"
     ./deb-get install ${testapp}
     ./deb-get show "${testapp}"
