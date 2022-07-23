@@ -17,7 +17,7 @@ WEBSITE=""
 #"strawberry" # is too yooj to use in the smoke testing
 # GUI="sleek"
 
-if [ ! "$(command -v deb-get-testing)" ]; then
+if [ "$(command -v deb-get-testing)" ]; then
 
 for testapp in ${DIRECT} ${PPA} ${GITHUB} ${WEBSITE} ${ISSUES}
     do
