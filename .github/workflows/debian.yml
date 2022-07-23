@@ -22,10 +22,8 @@ concurrency:
 
 jobs:
   Tests:
-    strategy:
-      matrix:
-        os: [debian-latest]
-    runs-on: self-hosted
+
+    runs-on: self-hosted,debian-latest,debian-11
     steps:
       - name: Install dependencies
         run: |
