@@ -50,9 +50,9 @@ jobs:
       - name: Run tests
         run: |
           MYOS=$(grep '^ID=' /etc/os-release | cut -d= -f2)
-          ${GITHUB_WORKSPACE}/${MYOS}/tests/01test-deb-get-is-installed.sh | tee -a testing-run.log
-          ${GITHUB_WORKSPACE}/${MYOS}/tests/02test-install-apps.sh |tee -a testing-run.log
-          ${GITHUB_WORKSPACE}/${MYOS}/tests/05test-deb-get-list.sh |tee -a testing-run.log
+          ${GITHUB_WORKSPACE}/${MYOS}/tests/01test-deb-get-is-installed.sh || exit 4 | tee -a testing-run.log
+          ${GITHUB_WORKSPACE}/${MYOS}/tests/02test-install-apps.sh || exit 4 |tee -a testing-run.log
+          ${GITHUB_WORKSPACE}/${MYOS}/tests/05test-deb-get-list.sh || exit 4 |tee -a testing-run.log
 
       # Creates file "$/files.json", among others
       #- name: Gather files changed
