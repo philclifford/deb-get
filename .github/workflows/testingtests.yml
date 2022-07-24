@@ -1,4 +1,4 @@
-name: Tests
+name: Tests on testing
 on:
   workflow_dispatch:
   push:
@@ -22,7 +22,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  Tests:
+  TestThreeDistros:
     strategy:
       matrix:
         os: [ubuntu-latest, debian-latest,linuxmint]
@@ -32,23 +32,19 @@ jobs:
         run: |
           sudo apt-get update && export DEBIAN_FRONTEND=noninteractive
           sudo apt-get -y install --no-install-recommends curl
+
+          # Dependencies to build the deb
+          # sudo apt-get install build-essential devscripts debhelper -y
+
+          # Dependencies for deb-get itself
+          # sudo apt-get install --no-install-recommends apt apt-transport-https bash coreutils curl dpkg grep libc-bin lsb-release sed software-properties-common sudo wget -y
+
        # jq curl shellcheck file
       - name: Check out testing branch code
         uses: actions/checkout@v3
         with:
           ref: testing
-       # This should work for all os/runners now
-       #  as the diff branches are needed only for devcontainers
-      # - name: Check out ubuntu test code
-      #   uses: actions/checkout@v3
-      #   with:
-      #     ref: ubuntu-testing
-      #     path: ubuntu
-      # - name: Check out debian test code
-      #   uses: actions/checkout@v3
-      #   with:
-      #     ref: debian-testing
-      #     path: debian
+
       - name: Run tests
         run: |
           ${GITHUB_WORKSPACE}/tests/01test-deb-get-is-installed.sh || exit 1 | tee -a testing-run.log
