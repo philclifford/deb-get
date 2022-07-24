@@ -1,4 +1,4 @@
-name: Tests on testing
+name: Tests Zorin POP and MX
 on:
   workflow_dispatch:
   push:
