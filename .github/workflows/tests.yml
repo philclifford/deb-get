@@ -27,6 +27,7 @@ jobs:
       # All these commands should return a 0 status
       - name: Test zero status
         run: |
+          ./deb-get update >/dev/null
           ./deb-get list >/dev/null
           ./deb-get help >/dev/null
           ./deb-get cache >/dev/null
