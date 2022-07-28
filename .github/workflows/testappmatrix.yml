@@ -28,6 +28,7 @@ jobs:
         os: [ubuntu-latest,debian-latest,linuxmint, zorin, kdeneon, popos]
         #,ubuntu-latest] # should not need re-testing here
         #,mxlinux, popos]
+    runs-on: {{ matrix.os }}
     steps:
       - name: Install dependencies
         run: |
