@@ -58,10 +58,11 @@ jobs:
         run: |
           export DEBIAN_FRONTEND=noninteractive
           set -x
-          ./deb-get install firefox-esr >/dev/null
+          if [ -e /etc/os-release ]; then . /etc/os-release
+          if [ ${ID} == debian ] then echo "PPA skipped on Debian" ;else deb-get install firefox-esr >/dev/null;fi
+          if [ ${ID} == debian ] then echo "PPA skipped on Debian" ;else deb-get install obs-studio >/dev/null;fi
           ./deb-get install 1password >/dev/null
           ./deb-get install bitwarden >/dev/null
-          ./deb-get install obs-studio >/dev/null
 
 
       # All these commands should return a non 0 status
