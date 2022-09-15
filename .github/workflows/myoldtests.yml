@@ -63,6 +63,7 @@ jobs:
           if [ ${ID} == debian ] then echo "PPA skipped on Debian" ;else deb-get install obs-studio >/dev/null;fi
           ./deb-get install 1password >/dev/null
           ./deb-get install bitwarden >/dev/null
+          ./deb-get install neovim >/dev/null
 
 
       # All these commands should return a non 0 status
