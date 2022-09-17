@@ -1,0 +1,17 @@
+#!/bin/bash
+DGLIDESTPATH=/etc/deb-get/99-local.d
+DGLISRCPATH=/etc/deb-get.d
+for file in "${DGLISRCPATH}"/* ; do
+    tst=$(grep function "${file}")
+    fn=$(basename "${file}")
+    if [ "${tst/${fn}/}" == "function deb_() {" ]; then
+    #the file is named exactly as the app name
+        tail +2 "${file}" | grep -v -e '^}$' -e '^$' >   "${DGLIDESTPATH}/${fn}"
+    else
+        echo "# ERROR: File ${file} does not conform for app ${fn}"
+        tst2="${tst/() {}"
+        echo "# it appears to be for the app : ${tst2/function deb_}"
+    fi
+done
+echo "SRC:" ; ls "${DGLISRCPATH}"
+echo "DST:" ; ls "${DGLIDESTPATH}"
