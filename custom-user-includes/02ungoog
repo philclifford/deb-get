@@ -1,0 +1,17 @@
+function ungoogled-chromium() {
+    APT_LIST_NAME="home-ungoogled_chromium.list"
+    case "${UPSTREAM_CODENAME}" in
+        focal)
+            APT_KEY_URL="https://download.opensuse.org/repositories/home:/ungoogled_chromium/Ubuntu_Focal/Release.key"
+            APT_REPO_URL="deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Ubuntu_Focal/ /"
+            ;;
+        *)
+            APT_KEY_URL="https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Sid/Release.key"
+            APT_REPO_URL="deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Sid/ /"
+            ;;
+    esac
+    PRETTY_NAME="ungoogled-chromium"
+    WEBSITE="https://github.com/Eloston/ungoogled-chromium"
+    SUMMARY="Google Chromium, sans integration with Google."
+}
+
