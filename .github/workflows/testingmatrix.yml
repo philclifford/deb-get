@@ -25,8 +25,7 @@ jobs:
   TestAllDistros:
     strategy:
       matrix:
-        os: [ubuntu-latest, debian-latest,linuxmint]
-        #,mxlinux,popos,zorin,kdeneon]
+        os: [ubuntu-latest, debian-latest,linuxmint,mxlinux,popos,zorin,kdeneon]
     runs-on: ${{ matrix.os }}
 
 
@@ -52,19 +51,6 @@ jobs:
           ./deb-get help >/dev/null
           ./deb-get cache >/dev/null
           ./deb-get version >/dev/null
-
-      # Remove any that are already there
-      - name: Test package pre-removals
-        run: |
-          export DEBIAN_FRONTEND=noninteractive
-          set -x
-          ./deb-get remove firefox-esr >/dev/null || true
-          ./deb-get remove 1password >/dev/null || true
-          ./deb-get remove bitwarden >/dev/null || true
-          ./deb-get remove obs-studio >/dev/null || true
-          ./deb-get remove neovim >/dev/null || true
-          ./deb-get remove google-cloud-cli >/dev/null || true
-          ./deb-get remove deborah >/dev/null || true
 
       # Install a couple of packages to see if they still install
       - name: Test package installations
