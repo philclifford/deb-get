@@ -23,7 +23,7 @@ jobs:
   tests:
     strategy:
       matrix:
-        os: [ubuntu-mate, debian-latest]
+        os: [debian-latest]
         #,linuxmint,mxlinux,popos,zorin,kdeneon]
     runs-on: ${{ matrix.os }}
 
@@ -46,7 +46,7 @@ jobs:
       - name: Initialize /etc/deb-get
         run: |
           sudo mkdir /etc/deb-get 2>/dev/null || true
-          echo "deb-get 1 github" | sudo tee /etc/deb-get/installed > /dev/null
+          #echo "deb-get 1 github" | sudo tee /etc/deb-get/installed > /dev/null
           sudo cp ./01-main/manifest /etc/deb-get/01-main.repo
           sudo cp -r ./01-main/packages /etc/deb-get/01-main.d
 
