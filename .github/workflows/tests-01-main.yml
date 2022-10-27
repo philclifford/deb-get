@@ -23,7 +23,7 @@ jobs:
   tests:
     strategy:
       matrix:
-        os: [ubuntu-latest, debian-latest]
+        os: [ubuntu-mate, debian-latest]
         #,linuxmint,mxlinux,popos,zorin,kdeneon]
     runs-on: ${{ matrix.os }}
 
