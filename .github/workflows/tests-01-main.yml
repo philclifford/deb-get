@@ -75,7 +75,7 @@ jobs:
           set -x
           . /etc/os-release
           if [ $ID == debian ] ; then
-            APPS="$(./deb-get csv |grep -v -e ppa -e virtualbox -e battery-monitor -e beersmith -e bitwig|cut -d\" -f2 |grep '^[b-z]'|grep -v '^ba' )"
+            APPS="$(./deb-get csv |grep -v -e ppa -e virtualbox -e battery-monitor -e beersmith -e bitwig -e bitwarden|cut -d\" -f2 |grep '^[b-z]'|grep -v '^ba' )"
           else
             APPS="$(./deb-get csv |grep -v -e virtualbox|cut -d\" -f2 )"
           fi
