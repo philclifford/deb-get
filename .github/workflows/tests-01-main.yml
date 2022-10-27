@@ -14,10 +14,10 @@ on:
       - "01-main/packages/*"
   workflow_dispatch:
 
-# This allows a subsequently queued workflow run to interrupt previous runs
-concurrency:
-  group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
-  cancel-in-progress: true
+# # This allows a subsequently queued workflow run to interrupt previous runs
+# concurrency:
+#   group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+#   cancel-in-progress: true
 
 jobs:
   tests:
@@ -75,7 +75,7 @@ jobs:
           set -x
           . /etc/os-release
           if [ $ID == debian ] ; then
-            APPS="$(./deb-get csv |grep -v -e ppa -e virtualbox|cut -d\" -f2 )"
+            APPS="$(./deb-get csv |grep -v -e ppa -e virtualbox -e battery-monitor |cut -d\" -f2 )"
           else
             APPS="$(./deb-get csv |grep -v -e virtualbox|cut -d\" -f2 )"
           fi
