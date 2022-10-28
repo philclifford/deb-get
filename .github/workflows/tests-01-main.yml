@@ -77,7 +77,7 @@ jobs:
           if [ $ID == debian ] ; then
             APPS="$(./deb-get csv |grep -v -e ppa -e virtualbox -e battery-monitor -e beersmith -e bitwig  \
             -e bitwarden -e deborah -e docker-desktop -e minigalaxy -e 'nala' -e openrgb \
-            |cut -d\" -f2 |grep '^[o-z]'|grep -v -e '^o[a-n]' -e '^open' )"
+            |cut -d\" -f2 |grep '^[p-z]'|grep -v -e '^o[a-p]' )"
           else
             APPS="$(./deb-get csv |grep -v -e virtualbox|cut -d\" -f2 )"
           fi
