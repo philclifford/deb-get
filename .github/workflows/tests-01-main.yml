@@ -78,7 +78,7 @@ jobs:
             APPS="$(./deb-get csv |grep -v -e ppa -e virtualbox -e battery-monitor -e beersmith -e bitwig  \
             -e bitwarden -e deborah -e docker-desktop -e minigalaxy -e 'nala' -e openrgb -e quickobs \
             -e stremio -e system-monitorin-center \
-            |cut -d\" -f2 |grep '^[s-z]'|grep -v -e '^s[a-t]' )"
+            |cut -d\" -f2 |grep '^[t-z]'|grep -v -e '^s[a-t]' )"
           else
             APPS="$(./deb-get csv |grep -v -e virtualbox|cut -d\" -f2 )"
           fi
