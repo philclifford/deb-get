@@ -1,5 +1,4 @@
 DEFVER=3
-# just to force a test run
 CODENAMES_SUPPORTED="bionic focal jammy kinetic"
 if [ "${ACTION}" != "prettylist" ]; then
     case ${UPSTREAM_CODENAME} in
