@@ -5,11 +5,12 @@ on:
     branches:
       - testing
       - 'test-**'
-      - extrepo
+      - 'fix-**'
+      - 'add-**'
     paths:
       - "01-main/packages/*"
   pull_request:
-    types: [opened, closed, synchronize]
+    types: [opened, synchronize]
     paths:
       - "01-main/packages/*"
   workflow_dispatch:
@@ -42,6 +43,8 @@ jobs:
 
           # Dependencies for deb-get itself
           sudo apt-get install apt apt-transport-https bash coreutils curl dpkg gpg grep libc-bin lsb-release sed software-properties-common sudo wget -y
+          # get us up-to-date as a base for latest package installations
+          sudo apt-get upgrade -y
 
       - name: Initialize /etc/deb-get
         run: |
