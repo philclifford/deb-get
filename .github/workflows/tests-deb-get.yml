@@ -21,8 +21,8 @@ jobs:
   tests:
     strategy:
       matrix:
-        os: [ubuntu-20.04, ubuntu-22.04, debian-latest]
-        #,ubuntu-mate ,linuxmint,mxlinux,popos,zorin,kdeneon]
+        os: [ubuntu-22.04]
+        #ubuntu-20.04, ubuntu-22.04, debian-latest ,ubuntu-mate ,linuxmint,mxlinux,popos,zorin,kdeneon]
     runs-on: ${{ matrix.os }}
 
     steps:
