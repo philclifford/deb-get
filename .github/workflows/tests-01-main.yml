@@ -61,8 +61,12 @@ jobs:
           chmod a+x ./deb-get
           export DEBIAN_FRONTEND=noninteractive
           set -x
-          PRS=${{ github.event.pull_request.base.sha ||  github.head_ref }}
-          APPS="$(git diff --name-only --diff-filter=ACMRT  ${PRS} ${{ github.sha }} | grep "^01-main/packages/" | sed "s|^01-main/packages/||")"
+          #PRS=${{ github.event.pull_request.base.sha ||  github.head_ref }}
+          if [ ${{github.event == push }} ] ; then
+          APPS="$(git diff --name-only --diff-filter=ACMRT  ${{ env.GITHUB_REPOSITORY }}/refs/heads/main ${{ github.sha }} | grep "^01-main/packages/" | sed "s|^01-main/packages/||")"
+          else
+          APPS="$(git diff --name-only --diff-filter=ACMRT  ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep "^01-main/packages/" | sed "s|^01-main/packages/||")"
+          fi
           for APP in ${APPS}; do
             if grep -q -m 1 "^${APP}$" ./01-main/manifest; then
               ./deb-get install "${APP}"
