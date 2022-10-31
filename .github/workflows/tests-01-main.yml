@@ -5,26 +5,27 @@ on:
     branches:
       - testing
       - 'test-**'
-      - extrepo
+      - 'fix-**'
+      - 'add-**'
     paths:
       - "01-main/packages/*"
   pull_request:
-    types: [opened, closed, synchronize]
+    types: [opened, synchronize]
     paths:
       - "01-main/packages/*"
   workflow_dispatch:
 
-# # This allows a subsequently queued workflow run to interrupt previous runs
-# concurrency:
-#   group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
-#   cancel-in-progress: true
+# This allows a subsequently queued workflow run to interrupt previous runs
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+  cancel-in-progress: true
 
 jobs:
   tests:
     strategy:
       matrix:
-        os: [debian-latest]
-        #,linuxmint,mxlinux,popos,zorin,kdeneon]
+        os: [ubuntu-latest, debian-latest]
+        #,ubuntu-mate, linuxmint,mxlinux,popos,zorin,kdeneon]
     runs-on: ${{ matrix.os }}
 
 
@@ -42,6 +43,8 @@ jobs:
 
           # Dependencies for deb-get itself
           sudo apt-get install apt apt-transport-https bash coreutils curl dpkg gpg grep libc-bin lsb-release sed software-properties-common sudo wget -y
+          # get us up-to-date as a base for latest package installations
+          sudo apt-get upgrade -y
 
       - name: Initialize /etc/deb-get
         run: |
@@ -69,27 +72,27 @@ jobs:
             fi
           done
 
-      - name: Debian testing
-        run: |
-          export DEBIAN_FRONTEND=noninteractive
-          set -x
-          . /etc/os-release
-          if [ $ID == debian ] ; then
-            APPS="$(./deb-get csv |grep -v -e ppa -e virtualbox -e battery-monitor -e beersmith -e bitwig  \
-            -e bitwarden -e deborah -e docker-desktop -e minigalaxy -e 'nala' -e openrgb -e quickobs \
-            -e stremio -e system-monitorin-center -e teamviewer \
-            |cut -d\" -f2 |grep '^[t-z]'|grep -v -e '^t[a-d]' -e '^tea')"
-          else
-            APPS="$(./deb-get csv |grep -v -e virtualbox|cut -d\" -f2 )"
-          fi
-          for APP in ${APPS}; do
-            if grep -q -m 1 "^${APP}$" ./01-main/manifest; then
-              ./deb-get install "${APP}"
-              if ./deb-get show "${APP}" | grep -q "Installed:	No"; then
-                echo "Failed to detect ${APP} as installed" >&2
-                exit 1
-              else
-                ./deb-get purge "${APP}"
-              fi
-            fi
-            done
+      # - name: Debian testing
+      #   run: |
+      #     export DEBIAN_FRONTEND=noninteractive
+      #     set -x
+      #     . /etc/os-release
+      #     if [ $ID == debian ] ; then
+      #       APPS="$(./deb-get csv |grep -v -e ppa -e virtualbox -e battery-monitor -e beersmith -e bitwig  \
+      #       -e bitwarden -e deborah -e docker-desktop -e minigalaxy -e 'nala' -e openrgb -e quickobs \
+      #       -e stremio -e system-monitorin-center -e teamviewer \
+      #       |cut -d\" -f2 |grep '^[t-z]'|grep -v -e '^t[a-d]' -e '^tea')"
+      #     else
+      #       APPS="$(./deb-get csv |grep -v -e virtualbox|cut -d\" -f2 )"
+      #     fi
+      #     for APP in ${APPS}; do
+      #       if grep -q -m 1 "^${APP}$" ./01-main/manifest; then
+      #         ./deb-get install "${APP}"
+      #         if ./deb-get show "${APP}" | grep -q "Installed:	No"; then
+      #           echo "Failed to detect ${APP} as installed" >&2
+      #           exit 1
+      #         else
+      #           ./deb-get purge "${APP}"
+      #         fi
+      #       fi
+      #       done

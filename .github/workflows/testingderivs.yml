@@ -1,0 +1,65 @@
+name: Tests Zorin POP and MX
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - testing
+      - 'test-**'
+    paths:
+      - 'deb-get'
+      - '.github/workflows/*.yml'
+
+ # pull_request:
+
+permissions:
+  contents: read
+  # Needed for the 'trilom/file-changes-action' action
+  pull-requests: read
+
+# This allows a subsequently queued workflow run to interrupt previous runs
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+  cancel-in-progress: true
+
+jobs:
+  TestThreeDistros:
+    strategy:
+      matrix:
+        os: [mxlinux, popos, zorin]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && export DEBIAN_FRONTEND=noninteractive
+          sudo apt-get -y install --no-install-recommends curl
+
+          # Dependencies to build the deb
+          # sudo apt-get install build-essential devscripts debhelper -y
+
+          # Dependencies for deb-get itself
+          # sudo apt-get install --no-install-recommends apt apt-transport-https bash coreutils curl dpkg grep libc-bin lsb-release sed software-properties-common sudo wget -y
+
+       # jq curl shellcheck file
+      - name: Check out testing branch code
+        uses: actions/checkout@v3
+        with:
+          ref: testing
+
+      - name: Run tests
+        run: |
+          ${GITHUB_WORKSPACE}/tests/01test-deb-get-is-installed.sh || exit 1 | tee -a testing-run.log
+          ${GITHUB_WORKSPACE}/tests/02test-install-apps.sh || exit 1 |tee -a testing-run.log
+          ${GITHUB_WORKSPACE}/tests/05test-deb-get-list.sh || exit 1 |tee -a testing-run.log
+
+      # Creates file "$/files.json", among others
+      #- name: Gather files changed
+      #  uses: trilom/file-changes-action@a6ca26c14274c33b15e6499323aac178af06ad4b
+      #  with:
+      #    fileOutput: 'json'
+
+      # For verification
+      #- name: Show files changed
+      #  run: cat $HOME/files.json
+
+# list artifacts
+# upload artifacts ?

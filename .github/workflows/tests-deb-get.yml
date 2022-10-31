@@ -5,11 +5,12 @@ on:
     branches:
       - testing
       - 'test-**'
-      - extrepo
+      - 'fix-**'
+      - 'add-**'
     paths:
-      - "01-main/packages/*"
+      - "deb-get"
   pull_request:
-    types: [opened, closed, synchronize]
+    types: [opened, synchronize]
     paths:
       - "deb-get"
   workflow_dispatch:
@@ -18,8 +19,8 @@ jobs:
   tests:
     strategy:
       matrix:
-        os: [ubuntu-mate, debian-latest]
-        #,linuxmint,mxlinux,popos,zorin,kdeneon]
+        os: [ubuntu-latest, debian-latest]
+        #,ubuntu-mate ,linuxmint,mxlinux,popos,zorin,kdeneon]
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -51,11 +52,11 @@ jobs:
           ./deb-get csvlist >/dev/null
           ./deb-get show deb-get >/dev/null
           ./deb-get help >/dev/null
+          ./deb-get update >/dev/null
           ./deb-get cache >/dev/null
           ./deb-get version >/dev/null
           ./deb-get clean >/dev/null
 
-      # update is skipped for now, as it depends on the 01-main subfolder being present
       # upgrade is skipped because of full system upgrade and otherwise testing package installs
       # covers most of that. Seperate job/workflow for occassional upgrade validation
       # say when tagging for release might be good.
