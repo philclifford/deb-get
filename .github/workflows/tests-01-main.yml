@@ -9,10 +9,12 @@ on:
       - 'add-**'
     paths:
       - "01-main/packages/*"
+      - ".github/workflows/*"
   pull_request:
-    types: [opened, synchronize]
+    types: [opened, reopened, synchronize]
     paths:
       - "01-main/packages/*"
+      - ".github/workflows/*"
   workflow_dispatch:
 
 # This allows a subsequently queued workflow run to interrupt previous runs
@@ -24,7 +26,7 @@ jobs:
   tests:
     strategy:
       matrix:
-        os: [ubuntu-latest, debian-latest]
+        os: [ubuntu-20.04, ubuntu-22.04, debian-latest]
         #,ubuntu-mate, linuxmint,mxlinux,popos,zorin,kdeneon]
     runs-on: ${{ matrix.os }}
 
