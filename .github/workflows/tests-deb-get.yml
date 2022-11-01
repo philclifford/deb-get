@@ -9,18 +9,20 @@ on:
       - 'add-**'
     paths:
       - "deb-get"
+      - ".github/workflows/*"
   pull_request:
-    types: [opened, synchronize]
+    types: [opened, reopened, synchronize]
     paths:
       - "deb-get"
+      - ".github/workflows/*"
   workflow_dispatch:
 
 jobs:
   tests:
     strategy:
       matrix:
-        os: [ubuntu-latest, debian-latest]
-        #,ubuntu-mate ,linuxmint,mxlinux,popos,zorin,kdeneon]
+        os: [ubuntu-22.04, ubuntu-20.04, debian-latest]
+        #ubuntu-20.04, ubuntu-22.04, debian-latest ,ubuntu-mate ,linuxmint,mxlinux,popos,zorin,kdeneon]
     runs-on: ${{ matrix.os }}
 
     steps:

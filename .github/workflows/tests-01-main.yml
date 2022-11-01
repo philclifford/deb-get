@@ -9,10 +9,12 @@ on:
       - 'add-**'
     paths:
       - "01-main/packages/*"
+      - ".github/workflows/*"
   pull_request:
-    types: [opened, synchronize]
+    types: [opened, reopened, synchronize]
     paths:
       - "01-main/packages/*"
+      - ".github/workflows/*"
   workflow_dispatch:
 
 # This allows a subsequently queued workflow run to interrupt previous runs
@@ -24,8 +26,8 @@ jobs:
   tests:
     strategy:
       matrix:
-        os: [ubuntu-latest, debian-latest]
-        #,ubuntu-mate, linuxmint,mxlinux,popos,zorin,kdeneon]
+        os: [ubuntu-22.04, ubuntu-20.04, debian-latest]
+        # ,ubuntu-20.04, debian-latest, ubuntu-mate, linuxmint,mxlinux,popos,zorin,kdeneon]
     runs-on: ${{ matrix.os }}
 
 
@@ -59,7 +61,8 @@ jobs:
           chmod a+x ./deb-get
           export DEBIAN_FRONTEND=noninteractive
           set -x
-          APPS="$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep "^01-main/packages/" | sed "s|^01-main/packages/||")"
+          #PRS=${{ github.event.pull_request.base.sha ||  github.head_ref }}
+          APPS="$(git diff --name-only --diff-filter=ACMRT  ${{ github.event.pull_request.base.sha || github.event.push.before}} ${{ github.sha }} | grep "^01-main/packages/" | sed "s|^01-main/packages/||")"
           for APP in ${APPS}; do
             if grep -q -m 1 "^${APP}$" ./01-main/manifest; then
               ./deb-get install "${APP}"
