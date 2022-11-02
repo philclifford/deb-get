@@ -23,7 +23,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  tests:
+  test-repo-updates:
     strategy:
       matrix:
         os: [ubuntu-22.04, ubuntu-20.04, debian-latest]
