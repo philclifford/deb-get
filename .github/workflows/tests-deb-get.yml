@@ -1,15 +1,29 @@
 name: deb-get Tests
 
 on:
-  pull_request:
-    types: [opened, closed, synchronize]
+  push:
+    branches:
+      - testing
+      - 'test-**'
+      - 'fix-**'
+      - 'add-**'
     paths:
       - "deb-get"
+      - ".github/workflows/*"
+  pull_request:
+    types: [opened, reopened, synchronize]
+    paths:
+      - "deb-get"
+      - ".github/workflows/*"
   workflow_dispatch:
 
 jobs:
   tests:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-22.04, ubuntu-20.04, debian-latest]
+        #ubuntu-20.04, ubuntu-22.04, debian-latest ,ubuntu-mate ,linuxmint,mxlinux,popos,zorin,kdeneon]
+    runs-on: ${{ matrix.os }}
 
     steps:
       - uses: actions/checkout@v3
@@ -26,8 +40,10 @@ jobs:
 
       - name: Initialize /etc/deb-get
         run: |
-          sudo mkdir /etc/deb-get
-          echo "deb-get 1 github" | sudo tee /etc/deb-get/installed > /dev/null
+          sudo mkdir -p /etc/deb-get 2>/dev/null || true
+          if [ ! -f /etc/deb-get/installed ] ; then
+            echo "deb-get 1 github" | sudo tee /etc/deb-get/installed > /dev/null
+          fi
           sudo cp ./01-main/manifest /etc/deb-get/01-main.repo
           sudo cp -r ./01-main/packages /etc/deb-get/01-main.d
 
@@ -40,11 +56,11 @@ jobs:
           ./deb-get csvlist >/dev/null
           ./deb-get show deb-get >/dev/null
           ./deb-get help >/dev/null
+          ./deb-get update >/dev/null
           ./deb-get cache >/dev/null
           ./deb-get version >/dev/null
           ./deb-get clean >/dev/null
 
-      # update is skipped for now, as it depends on the 01-main subfolder being present
       # upgrade is skipped because of full system upgrade and otherwise testing package installs
       # covers most of that. Seperate job/workflow for occassional upgrade validation
       # say when tagging for release might be good.
