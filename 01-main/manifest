@@ -70,6 +70,7 @@ gpu-viewer
 grype
 helio-workstation
 heroic
+homeassistant-supervised
 hugo
 hyper
 igdm
@@ -124,6 +125,7 @@ openaudible
 openrazer-meta
 openrgb
 opera-stable
+os-agent
 p3x-onenote
 pandoc
 papirus-icon-theme
