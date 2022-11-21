@@ -66,12 +66,12 @@ The environment variables available to the package definition file are the follo
 * `UPSTREAM_RELEASE`: The release version of the upstream distribution.
 * `ACTION`: The command being executed by `deb-get`. Supported values are `update`, `upgrade`, `show`, `install`, `reinstall`, `remove`, `purge`, `prettylist` and `fix-installed`. `ACTION` for `csvlist` is `prettylist`.
 * `APP`: The name of the package.
-* `CACHE_FILE`: The path to the cached file for `website` and `github` packages.
+* `CACHE_FILE`: The path to the cached file for `github` packages.
 
 The helper functions available to the package definition file are the following:
 
 * `unroll_url`: Handles redirection and returns the final URL.
-* `get_github_releases`: Sets `METHOD` to `github` and saves the GitHub releases JSON file from GitHub API to `CACHE_DIR`.
+* `get_github_releases`: Sets `METHOD` to `github` and saves the GitHub releases JSON file from GitHub API to `CACHE_FILE`.
 * `get_website`: Sets `METHOD` to `website` and saves the HTML file to `CACHE_FILE`.
 
 Use the following package definition templates as reference for adding a new package to the repository, according to the installation method of the package. The package definition files already implemented in the main repository can serve as further reference.
