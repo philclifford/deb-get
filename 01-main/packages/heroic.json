@@ -63,7 +63,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 130646129,
-        "download_count": 3678,
+        "download_count": 3703,
         "created_at": "2022-12-14T10:42:24Z",
         "updated_at": "2022-12-14T10:43:05Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/Heroic-2.5.2-macOS-arm64.dmg"
@@ -97,7 +97,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 125562670,
-        "download_count": 1438,
+        "download_count": 1445,
         "created_at": "2022-12-14T20:15:00Z",
         "updated_at": "2022-12-14T20:15:23Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/Heroic-2.5.2-macOS-x64.dmg"
@@ -131,7 +131,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92397768,
-        "download_count": 2830,
+        "download_count": 2836,
         "created_at": "2022-12-14T10:36:26Z",
         "updated_at": "2022-12-14T10:36:39Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/Heroic-2.5.2-Portable.exe"
@@ -165,7 +165,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 92562584,
-        "download_count": 15225,
+        "download_count": 15293,
         "created_at": "2022-12-14T10:43:46Z",
         "updated_at": "2022-12-14T10:44:05Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/Heroic-2.5.2-Setup.exe"
@@ -199,7 +199,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 98619,
-        "download_count": 3828,
+        "download_count": 3833,
         "created_at": "2022-12-14T10:36:27Z",
         "updated_at": "2022-12-14T10:36:27Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/Heroic-2.5.2-Setup.exe.blockmap"
@@ -233,7 +233,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 131167591,
-        "download_count": 6543,
+        "download_count": 6597,
         "created_at": "2022-12-14T10:30:12Z",
         "updated_at": "2022-12-14T10:30:15Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/Heroic-2.5.2.AppImage"
@@ -267,7 +267,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92852540,
-        "download_count": 7440,
+        "download_count": 7476,
         "created_at": "2022-12-14T10:37:44Z",
         "updated_at": "2022-12-14T10:37:46Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/heroic-2.5.2.pacman"
@@ -301,7 +301,7 @@
         "content_type": "application/x-xz",
         "state": "uploaded",
         "size": 92826896,
-        "download_count": 387,
+        "download_count": 389,
         "created_at": "2022-12-14T10:31:44Z",
         "updated_at": "2022-12-14T10:31:46Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/heroic-2.5.2.tar.xz"
@@ -335,7 +335,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 92919745,
-        "download_count": 1040,
+        "download_count": 1049,
         "created_at": "2022-12-14T10:35:50Z",
         "updated_at": "2022-12-14T10:35:53Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/heroic-2.5.2.x86_64.rpm"
@@ -369,7 +369,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92877278,
-        "download_count": 5650,
+        "download_count": 5697,
         "created_at": "2022-12-14T10:33:38Z",
         "updated_at": "2022-12-14T10:33:40Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/heroic_2.5.2_amd64.deb"
@@ -403,7 +403,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 364,
-        "download_count": 17792,
+        "download_count": 17936,
         "created_at": "2022-12-14T10:37:47Z",
         "updated_at": "2022-12-14T10:37:47Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/latest-linux.yml"
@@ -471,7 +471,7 @@
         "content_type": "application/x-yaml",
         "state": "uploaded",
         "size": 420,
-        "download_count": 48212,
+        "download_count": 48577,
         "created_at": "2022-12-14T10:43:46Z",
         "updated_at": "2022-12-14T10:43:46Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.2/latest.yml"
@@ -558,7 +558,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 126708602,
-        "download_count": 287,
+        "download_count": 289,
         "created_at": "2022-12-09T14:01:29Z",
         "updated_at": "2022-12-09T14:02:03Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.1/Heroic-2.5.1-arm64.pkg"
@@ -660,7 +660,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 98239,
-        "download_count": 3406,
+        "download_count": 3408,
         "created_at": "2022-12-06T13:10:42Z",
         "updated_at": "2022-12-06T13:10:42Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.1/Heroic-2.5.1-Setup.exe.blockmap"
@@ -1121,7 +1121,7 @@
         "content_type": "application/x-ms-dos-executable",
         "state": "uploaded",
         "size": 92473760,
-        "download_count": 1849,
+        "download_count": 1850,
         "created_at": "2022-12-03T20:13:07Z",
         "updated_at": "2022-12-03T20:13:22Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.0/Heroic-2.5.0-Setup.exe"
@@ -1155,7 +1155,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 97559,
-        "download_count": 2446,
+        "download_count": 2447,
         "created_at": "2022-11-29T12:27:37Z",
         "updated_at": "2022-11-29T12:27:37Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.0/Heroic-2.5.0-Setup.exe.blockmap"
@@ -1359,7 +1359,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 92477793,
-        "download_count": 323,
+        "download_count": 324,
         "created_at": "2022-11-29T12:28:23Z",
         "updated_at": "2022-11-29T12:28:27Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.0/heroic-2.5.0.x86_64.rpm"
@@ -1393,7 +1393,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92425998,
-        "download_count": 1376,
+        "download_count": 1377,
         "created_at": "2022-11-29T12:26:25Z",
         "updated_at": "2022-11-29T12:26:29Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.0/heroic_2.5.0_amd64.deb"
@@ -1718,7 +1718,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 125000737,
-        "download_count": 161,
+        "download_count": 162,
         "created_at": "2022-11-25T09:44:50Z",
         "updated_at": "2022-11-25T09:44:56Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.0-beta.3/Heroic-2.5.0-beta.3.dmg"
@@ -1786,7 +1786,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92158012,
-        "download_count": 728,
+        "download_count": 730,
         "created_at": "2022-11-25T09:47:40Z",
         "updated_at": "2022-11-25T09:47:42Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.0-beta.3/heroic-2.5.0-beta.3.pacman"
@@ -1922,7 +1922,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 385,
-        "download_count": 2295,
+        "download_count": 2297,
         "created_at": "2022-11-25T09:47:42Z",
         "updated_at": "2022-11-25T09:47:42Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.0-beta.3/latest-linux.yml"
@@ -1990,7 +1990,7 @@
         "content_type": "application/x-yaml",
         "state": "uploaded",
         "size": 441,
-        "download_count": 6807,
+        "download_count": 6814,
         "created_at": "2022-11-25T10:17:55Z",
         "updated_at": "2022-11-25T10:17:56Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.5.0-beta.3/latest.yml"
@@ -3169,7 +3169,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 151832994,
-        "download_count": 10001,
+        "download_count": 10005,
         "created_at": "2022-09-10T09:56:51Z",
         "updated_at": "2022-09-10T09:56:55Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.4.3/Heroic-2.4.3.AppImage"
@@ -3305,7 +3305,7 @@
         "content_type": "application/x-xz",
         "state": "uploaded",
         "size": 94869064,
-        "download_count": 661,
+        "download_count": 662,
         "created_at": "2022-09-10T09:58:53Z",
         "updated_at": "2022-09-10T09:58:55Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.4.3/heroic-2.4.3.tar.xz"
@@ -3373,7 +3373,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94925712,
-        "download_count": 8631,
+        "download_count": 8633,
         "created_at": "2022-09-10T10:01:18Z",
         "updated_at": "2022-09-10T10:01:20Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.4.3/heroic_2.4.3_amd64.deb"
@@ -3630,7 +3630,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 105225,
-        "download_count": 3002,
+        "download_count": 3003,
         "created_at": "2022-09-01T11:25:05Z",
         "updated_at": "2022-09-01T11:25:06Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.4.2/Heroic-2.4.2-Setup.exe.blockmap"
@@ -6670,7 +6670,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 95407181,
-        "download_count": 3133,
+        "download_count": 3134,
         "created_at": "2022-06-15T16:30:45Z",
         "updated_at": "2022-06-15T16:30:47Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.3.9/Heroic-2.3.9.exe"
@@ -6874,7 +6874,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96164402,
-        "download_count": 7222,
+        "download_count": 7223,
         "created_at": "2022-06-15T16:28:26Z",
         "updated_at": "2022-06-15T16:28:30Z",
         "browser_download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.3.9/heroic_2.3.9_amd64.deb"
