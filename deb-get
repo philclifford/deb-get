@@ -640,7 +640,7 @@ function update_repos() {
         awk -F/ '/github/  {print "# fetching github repo";
                             print "GITREPO="$4"/"$5;\
                             print "BRANCH="$6;\
-                            print "curl -L https://api.github.com/repos/${GITREPO}/tarball/${BRANCH} | tar zx --wildcards \"*/${REPO}*/packages/*\"   --strip-components=3";\
+                            print "curl -L https://api.github.com/repos/${GITREPO}/tarball/${BRANCH} | ${ELEVATE} tar zx --wildcards \"*/${REPO}*/packages/*\"   --strip-components=3";\
                             print "if [ -f timestamp ] ;then ${ELEVATE} touch --no-create -d \"$(cat timestamp)\" *.json *.html ; fi";
                             print "${ELEVATE} mv -f *json *html /var/cache/deb-get/  >/dev/null 2>&1 ||true "}
                 ! /github/ {print "# fetching non-github repo";
