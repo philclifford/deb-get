@@ -62,7 +62,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 2826,
-      "download_count": 22,
+      "download_count": 52,
       "created_at": "2023-02-01T02:00:05Z",
       "updated_at": "2023-02-01T02:00:05Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/Portfile"
@@ -96,7 +96,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 14867620,
-      "download_count": 33,
+      "download_count": 95,
       "created_at": "2023-02-01T02:19:36Z",
       "updated_at": "2023-02-01T02:19:38Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-debian-bullseye-amd64.deb"
@@ -130,7 +130,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 13101378,
-      "download_count": 6,
+      "download_count": 12,
       "created_at": "2023-02-01T02:19:39Z",
       "updated_at": "2023-02-01T02:19:40Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-debian-bullseye-arm64.deb"
@@ -164,7 +164,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 8198216,
-      "download_count": 7,
+      "download_count": 15,
       "created_at": "2023-02-01T05:10:40Z",
       "updated_at": "2023-02-01T05:10:40Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-fedora-36-amd64.rpm"
@@ -198,7 +198,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 6825522,
-      "download_count": 0,
+      "download_count": 3,
       "created_at": "2023-02-01T05:10:41Z",
       "updated_at": "2023-02-01T05:10:41Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-fedora-36-arm64.rpm"
@@ -232,7 +232,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 8217758,
-      "download_count": 22,
+      "download_count": 66,
       "created_at": "2023-02-01T05:27:02Z",
       "updated_at": "2023-02-01T05:27:02Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-fedora-37-amd64.rpm"
@@ -266,7 +266,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 6828901,
-      "download_count": 1,
+      "download_count": 14,
       "created_at": "2023-02-01T05:27:03Z",
       "updated_at": "2023-02-01T05:27:03Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-fedora-37-arm64.rpm"
@@ -300,7 +300,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 14463850,
-      "download_count": 12,
+      "download_count": 50,
       "created_at": "2023-02-01T02:22:30Z",
       "updated_at": "2023-02-01T02:22:31Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-ubuntu-20.04-amd64.deb"
@@ -334,7 +334,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 12708592,
-      "download_count": 5,
+      "download_count": 12,
       "created_at": "2023-02-01T02:22:32Z",
       "updated_at": "2023-02-01T02:22:33Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-ubuntu-20.04-arm64.deb"
@@ -368,7 +368,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 14879280,
-      "download_count": 54,
+      "download_count": 151,
       "created_at": "2023-02-01T02:18:06Z",
       "updated_at": "2023-02-01T02:18:07Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-ubuntu-22.04-amd64.deb"
@@ -402,7 +402,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 13118760,
-      "download_count": 8,
+      "download_count": 16,
       "created_at": "2023-02-01T02:18:07Z",
       "updated_at": "2023-02-01T02:18:08Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-ubuntu-22.04-arm64.deb"
@@ -436,7 +436,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 16898190,
-      "download_count": 966,
+      "download_count": 2844,
       "created_at": "2023-02-01T01:53:28Z",
       "updated_at": "2023-02-01T01:53:30Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-windows.exe"
@@ -470,7 +470,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 21523527,
-      "download_count": 354,
+      "download_count": 916,
       "created_at": "2023-02-01T01:53:31Z",
       "updated_at": "2023-02-01T01:53:32Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine-windows.zip"
@@ -504,7 +504,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 27370688,
-      "download_count": 50,
+      "download_count": 153,
       "created_at": "2023-02-01T01:54:17Z",
       "updated_at": "2023-02-01T01:54:19Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine.AppImage"
@@ -538,7 +538,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 844282517,
-      "download_count": 11,
+      "download_count": 41,
       "created_at": "2023-02-01T02:00:08Z",
       "updated_at": "2023-02-01T02:00:32Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine.dmg"
@@ -572,7 +572,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 14596694,
-      "download_count": 8,
+      "download_count": 28,
       "created_at": "2023-02-01T02:00:33Z",
       "updated_at": "2023-02-01T02:00:33Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine.pkg"
@@ -606,7 +606,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 7619608,
-      "download_count": 12,
+      "download_count": 39,
       "created_at": "2023-02-01T03:33:21Z",
       "updated_at": "2023-02-01T03:33:22Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine_aarch64.flatpak"
@@ -640,7 +640,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 42062600,
-      "download_count": 0,
+      "download_count": 1,
       "created_at": "2023-02-01T03:33:22Z",
       "updated_at": "2023-02-01T03:33:24Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine_debug_aarch64.flatpak"
@@ -674,7 +674,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 78586472,
-      "download_count": 5,
+      "download_count": 14,
       "created_at": "2023-02-01T02:15:02Z",
       "updated_at": "2023-02-01T02:15:05Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine_debug_x86_64.flatpak"
@@ -708,7 +708,7 @@
       "content_type": "raw",
       "state": "uploaded",
       "size": 12319656,
-      "download_count": 37,
+      "download_count": 108,
       "created_at": "2023-02-01T02:15:05Z",
       "updated_at": "2023-02-01T02:15:06Z",
       "browser_download_url": "https://github.com/LizardByte/Sunshine/releases/download/v0.18.1/sunshine_x86_64.flatpak"
@@ -720,11 +720,11 @@
   "discussion_url": "https://github.com/LizardByte/Sunshine/discussions/876",
   "reactions": {
     "url": "https://api.github.com/repos/LizardByte/Sunshine/releases/90921409/reactions",
-    "total_count": 8,
-    "+1": 0,
+    "total_count": 10,
+    "+1": 1,
     "-1": 0,
     "laugh": 0,
-    "hooray": 8,
+    "hooray": 9,
     "confused": 0,
     "heart": 0,
     "rocket": 0,
