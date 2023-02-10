@@ -62,7 +62,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 101247512,
-      "download_count": 5142,
+      "download_count": 68043,
       "created_at": "2023-02-03T19:25:27Z",
       "updated_at": "2023-02-03T19:25:31Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-20.8.16-windows-installer.exe"
@@ -96,7 +96,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 106190,
-      "download_count": 1853,
+      "download_count": 22047,
       "created_at": "2023-02-03T19:25:27Z",
       "updated_at": "2023-02-03T19:25:27Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-20.8.16-windows-installer.exe.blockmap"
@@ -130,7 +130,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 101031680,
-      "download_count": 544,
+      "download_count": 9442,
       "created_at": "2023-02-03T19:25:26Z",
       "updated_at": "2023-02-03T19:25:31Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-20.8.16-windows-no-installer.exe"
@@ -164,7 +164,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 132882432,
-      "download_count": 62,
+      "download_count": 924,
       "created_at": "2023-02-03T19:25:35Z",
       "updated_at": "2023-02-03T19:25:40Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-20.8.16.msi"
@@ -198,7 +198,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 149126341,
-      "download_count": 266,
+      "download_count": 2992,
       "created_at": "2023-02-03T19:30:44Z",
       "updated_at": "2023-02-03T19:30:53Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-arm64-20.8.16.dmg"
@@ -232,7 +232,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 156045,
-      "download_count": 4,
+      "download_count": 40,
       "created_at": "2023-02-03T19:30:44Z",
       "updated_at": "2023-02-03T19:30:44Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-arm64-20.8.16.dmg.blockmap"
@@ -266,7 +266,7 @@
       "content_type": "application/zip",
       "state": "uploaded",
       "size": 144046199,
-      "download_count": 742,
+      "download_count": 9767,
       "created_at": "2023-02-03T19:31:28Z",
       "updated_at": "2023-02-03T19:31:36Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-arm64-20.8.16.zip"
@@ -300,7 +300,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 151575,
-      "download_count": 4,
+      "download_count": 20,
       "created_at": "2023-02-03T19:31:28Z",
       "updated_at": "2023-02-03T19:31:28Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-arm64-20.8.16.zip.blockmap"
@@ -334,7 +334,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 97396176,
-      "download_count": 106,
+      "download_count": 506,
       "created_at": "2023-02-03T19:21:59Z",
       "updated_at": "2023-02-03T19:22:03Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-ia32-20.8.16-windows-32bit-installer.exe"
@@ -368,7 +368,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 102909,
-      "download_count": 6,
+      "download_count": 27,
       "created_at": "2023-02-03T19:21:59Z",
       "updated_at": "2023-02-03T19:21:59Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-ia32-20.8.16-windows-32bit-installer.exe.blockmap"
@@ -402,7 +402,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 97180880,
-      "download_count": 16,
+      "download_count": 156,
       "created_at": "2023-02-03T19:21:57Z",
       "updated_at": "2023-02-03T19:22:00Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-ia32-20.8.16-windows-32bit-no-installer.exe"
@@ -436,7 +436,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 220452223,
-      "download_count": 1138,
+      "download_count": 13748,
       "created_at": "2023-02-03T19:35:49Z",
       "updated_at": "2023-02-03T19:35:59Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-universal-20.8.16.dmg"
@@ -470,7 +470,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 231037,
-      "download_count": 4,
+      "download_count": 18,
       "created_at": "2023-02-03T19:35:49Z",
       "updated_at": "2023-02-03T19:35:50Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-universal-20.8.16.dmg.blockmap"
@@ -504,7 +504,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 153344891,
-      "download_count": 113,
+      "download_count": 1719,
       "created_at": "2023-02-03T19:27:06Z",
       "updated_at": "2023-02-03T19:27:14Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-x64-20.8.16.dmg"
@@ -538,7 +538,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 161086,
-      "download_count": 4,
+      "download_count": 14,
       "created_at": "2023-02-03T19:27:06Z",
       "updated_at": "2023-02-03T19:27:06Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-x64-20.8.16.dmg.blockmap"
@@ -572,7 +572,7 @@
       "content_type": "application/zip",
       "state": "uploaded",
       "size": 148338389,
-      "download_count": 683,
+      "download_count": 9564,
       "created_at": "2023-02-03T19:26:59Z",
       "updated_at": "2023-02-03T19:27:06Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-x64-20.8.16.zip"
@@ -606,7 +606,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 157121,
-      "download_count": 5,
+      "download_count": 25,
       "created_at": "2023-02-03T19:26:59Z",
       "updated_at": "2023-02-03T19:27:00Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/draw.io-x64-20.8.16.zip.blockmap"
@@ -640,7 +640,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 104332114,
-      "download_count": 658,
+      "download_count": 4906,
       "created_at": "2023-02-03T19:21:12Z",
       "updated_at": "2023-02-03T19:21:15Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/drawio-amd64-20.8.16.deb"
@@ -674,7 +674,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 157065889,
-      "download_count": 153,
+      "download_count": 1035,
       "created_at": "2023-02-03T19:18:58Z",
       "updated_at": "2023-02-03T19:19:03Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/drawio-x86_64-20.8.16.AppImage"
@@ -708,7 +708,7 @@
       "content_type": "application/x-redhat-package-manager",
       "state": "uploaded",
       "size": 104792572,
-      "download_count": 44,
+      "download_count": 562,
       "created_at": "2023-02-03T19:23:35Z",
       "updated_at": "2023-02-03T19:23:38Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/drawio-x86_64-20.8.16.rpm"
@@ -742,7 +742,7 @@
       "content_type": "binary/octet-stream",
       "state": "uploaded",
       "size": 2253,
-      "download_count": 68,
+      "download_count": 327,
       "created_at": "2023-02-04T15:57:30Z",
       "updated_at": "2023-02-04T15:57:30Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/Files-SHA256-Hashes.txt"
@@ -776,7 +776,7 @@
       "content_type": "text/yaml",
       "state": "uploaded",
       "size": 384,
-      "download_count": 151,
+      "download_count": 2218,
       "created_at": "2023-02-03T19:23:38Z",
       "updated_at": "2023-02-03T19:23:38Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/latest-linux.yml"
@@ -810,7 +810,7 @@
       "content_type": "text/yaml",
       "state": "uploaded",
       "size": 971,
-      "download_count": 2439,
+      "download_count": 30486,
       "created_at": "2023-02-03T19:35:59Z",
       "updated_at": "2023-02-03T19:35:59Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/latest-mac.yml"
@@ -844,7 +844,7 @@
       "content_type": "text/yaml",
       "state": "uploaded",
       "size": 373,
-      "download_count": 4616,
+      "download_count": 56783,
       "created_at": "2023-02-03T19:25:43Z",
       "updated_at": "2023-02-03T19:25:43Z",
       "browser_download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v20.8.16/latest.yml"
@@ -856,14 +856,14 @@
   "discussion_url": "https://github.com/jgraph/drawio-desktop/discussions/1225",
   "reactions": {
     "url": "https://api.github.com/repos/jgraph/drawio-desktop/releases/91308906/reactions",
-    "total_count": 4,
+    "total_count": 21,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
-    "heart": 0,
-    "rocket": 4,
-    "eyes": 0
+    "heart": 10,
+    "rocket": 10,
+    "eyes": 1
   }
 }

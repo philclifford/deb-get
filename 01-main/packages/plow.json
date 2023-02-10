@@ -198,7 +198,7 @@
       "content_type": "application/vnd.debian.binary-package",
       "state": "uploaded",
       "size": 4896572,
-      "download_count": 124,
+      "download_count": 127,
       "created_at": "2022-07-28T01:45:55Z",
       "updated_at": "2022-07-28T01:45:55Z",
       "browser_download_url": "https://github.com/six-ddc/plow/releases/download/v1.3.1/plow_1.3.1_linux_amd64.deb"
@@ -266,7 +266,7 @@
       "content_type": "application/gzip",
       "state": "uploaded",
       "size": 4704052,
-      "download_count": 231,
+      "download_count": 242,
       "created_at": "2022-07-28T01:45:54Z",
       "updated_at": "2022-07-28T01:45:54Z",
       "browser_download_url": "https://github.com/six-ddc/plow/releases/download/v1.3.1/plow_1.3.1_linux_amd64.tar.gz"
@@ -334,7 +334,7 @@
       "content_type": "application/vnd.debian.binary-package",
       "state": "uploaded",
       "size": 4499068,
-      "download_count": 12,
+      "download_count": 13,
       "created_at": "2022-07-28T01:45:54Z",
       "updated_at": "2022-07-28T01:45:55Z",
       "browser_download_url": "https://github.com/six-ddc/plow/releases/download/v1.3.1/plow_1.3.1_linux_arm64.deb"
@@ -436,7 +436,7 @@
       "content_type": "application/gzip",
       "state": "uploaded",
       "size": 4701102,
-      "download_count": 80,
+      "download_count": 82,
       "created_at": "2022-07-28T01:45:54Z",
       "updated_at": "2022-07-28T01:45:55Z",
       "browser_download_url": "https://github.com/six-ddc/plow/releases/download/v1.3.1/plow_1.3.1_windows_amd64.tar.gz"

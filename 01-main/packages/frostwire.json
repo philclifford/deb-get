@@ -63,7 +63,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 54648608,
-        "download_count": 1,
+        "download_count": 3,
         "created_at": "2023-02-01T04:39:27Z",
         "updated_at": "2023-02-01T04:39:41Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-android-2.6.3-build-711/frostwire-android-basic-release.aab"
@@ -97,7 +97,7 @@
         "content_type": "application/vnd.android.package-archive",
         "state": "uploaded",
         "size": 92483854,
-        "download_count": 5,
+        "download_count": 9,
         "created_at": "2023-02-01T04:37:42Z",
         "updated_at": "2023-02-01T04:38:11Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-android-2.6.3-build-711/frostwire-android-release-2.6.3-b711-basic.apk"
@@ -131,7 +131,7 @@
         "content_type": "application/vnd.android.package-archive",
         "state": "uploaded",
         "size": 92483874,
-        "download_count": 3494,
+        "download_count": 7099,
         "created_at": "2023-02-01T04:38:11Z",
         "updated_at": "2023-02-01T04:38:34Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-android-2.6.3-build-711/frostwire-android-release-2.6.3-b711-plus.apk"
@@ -205,7 +205,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 18651656,
-        "download_count": 59,
+        "download_count": 61,
         "created_at": "2023-01-05T03:03:46Z",
         "updated_at": "2023-01-05T03:04:24Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/telluride-build-24/telluride.exe"
@@ -381,7 +381,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 63730478,
-        "download_count": 4896,
+        "download_count": 5210,
         "created_at": "2022-10-26T14:26:47Z",
         "updated_at": "2022-10-26T14:27:04Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.10-build-315/frostwire-6.9.10-arm64.dmg"
@@ -415,7 +415,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 66616004,
-        "download_count": 20962,
+        "download_count": 22450,
         "created_at": "2022-10-24T19:08:26Z",
         "updated_at": "2022-10-24T19:08:43Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.10-build-315/frostwire-6.9.10-x86_64.dmg"
@@ -449,7 +449,7 @@
         "content_type": "application/vnd.debian.binary-package",
         "state": "uploaded",
         "size": 63809296,
-        "download_count": 5613,
+        "download_count": 5900,
         "created_at": "2022-10-24T23:14:35Z",
         "updated_at": "2022-10-24T23:14:57Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.10-build-315/frostwire-6.9.10.amd64.deb"
@@ -483,7 +483,7 @@
         "content_type": "application/x-rpm",
         "state": "uploaded",
         "size": 75096818,
-        "download_count": 1946,
+        "download_count": 2046,
         "created_at": "2022-10-24T23:13:27Z",
         "updated_at": "2022-10-24T23:13:45Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.10-build-315/frostwire-6.9.10.amd64.rpm"
@@ -517,7 +517,7 @@
         "content_type": "application/gzip",
         "state": "uploaded",
         "size": 73425736,
-        "download_count": 813,
+        "download_count": 849,
         "created_at": "2022-10-24T23:14:40Z",
         "updated_at": "2022-10-24T23:15:05Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.10-build-315/frostwire-6.9.10.amd64.tar.gz"
@@ -551,7 +551,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 57743704,
-        "download_count": 3425,
+        "download_count": 3574,
         "created_at": "2022-10-26T05:07:46Z",
         "updated_at": "2022-10-26T05:07:59Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.10-build-315/frostwire-6.9.10.windows.github.exe"
@@ -659,7 +659,7 @@
         "content_type": "application/vnd.android.package-archive",
         "state": "uploaded",
         "size": 91006566,
-        "download_count": 132,
+        "download_count": 137,
         "created_at": "2022-10-19T20:25:43Z",
         "updated_at": "2022-10-19T20:26:04Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-android-2.6.2-build-708/frostwire-android-release-2.6.2-b708-basic.apk"
@@ -693,7 +693,7 @@
         "content_type": "application/vnd.android.package-archive",
         "state": "uploaded",
         "size": 91003430,
-        "download_count": 51947,
+        "download_count": 51980,
         "created_at": "2022-10-19T20:26:04Z",
         "updated_at": "2022-10-19T20:26:24Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-android-2.6.2-build-708/frostwire-android-release-2.6.2-b708-plus.apk"
@@ -1085,7 +1085,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 58740666,
-        "download_count": 2226,
+        "download_count": 2229,
         "created_at": "2022-09-12T02:20:01Z",
         "updated_at": "2022-09-12T02:20:15Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.9-build-313/frostwire-6.9.9-arm64.dmg"
@@ -1119,7 +1119,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 61197534,
-        "download_count": 8700,
+        "download_count": 8704,
         "created_at": "2022-09-12T01:56:45Z",
         "updated_at": "2022-09-12T01:57:41Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.9-build-313/frostwire-6.9.9-x86_64.dmg"
@@ -1153,7 +1153,7 @@
         "content_type": "application/vnd.debian.binary-package",
         "state": "uploaded",
         "size": 55740068,
-        "download_count": 2250,
+        "download_count": 2254,
         "created_at": "2022-09-12T01:45:04Z",
         "updated_at": "2022-09-12T01:45:26Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.9-build-313/frostwire-6.9.9.amd64.deb"
@@ -1187,7 +1187,7 @@
         "content_type": "application/x-rpm",
         "state": "uploaded",
         "size": 66705551,
-        "download_count": 971,
+        "download_count": 976,
         "created_at": "2022-09-12T01:43:54Z",
         "updated_at": "2022-09-12T01:44:38Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.9-build-313/frostwire-6.9.9.amd64.rpm"
@@ -1255,7 +1255,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 52976840,
-        "download_count": 89664,
+        "download_count": 89715,
         "created_at": "2022-09-12T02:15:57Z",
         "updated_at": "2022-09-12T02:16:22Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.9-build-313/frostwire-6.9.9.windows.github.exe"
@@ -1517,7 +1517,7 @@
         "content_type": "application/vnd.android.package-archive",
         "state": "uploaded",
         "size": 83077148,
-        "download_count": 5,
+        "download_count": 6,
         "created_at": "2022-09-09T16:44:35Z",
         "updated_at": "2022-09-09T16:44:55Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-android-2.6.0-build-705/frostwire-android-release-2.6.0-b705-basic.apk"
@@ -1693,7 +1693,7 @@
         "content_type": "application/vnd.android.package-archive",
         "state": "uploaded",
         "size": 83076876,
-        "download_count": 9011,
+        "download_count": 9012,
         "created_at": "2022-09-01T22:12:30Z",
         "updated_at": "2022-09-01T22:12:52Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-android-2.6.0-build-704/frostwire-android-release-2.6.0-b704-plus.apk"
@@ -2119,7 +2119,7 @@
         "content_type": "application/vnd.android.package-archive",
         "state": "uploaded",
         "size": 39997517,
-        "download_count": 6323,
+        "download_count": 6325,
         "created_at": "2022-08-14T17:39:25Z",
         "updated_at": "2022-08-14T17:39:50Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-android-2.5.0-build-701/frostwire-android-release-2.5.0-b701-plus.apk"
@@ -2687,7 +2687,7 @@
         "content_type": "application/vnd.android.package-archive",
         "state": "uploaded",
         "size": 41742260,
-        "download_count": 4981,
+        "download_count": 4983,
         "created_at": "2022-07-20T00:27:43Z",
         "updated_at": "2022-07-20T00:28:01Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-android-2.5.0-build-695/frostwire-android-release-2.5.0-b695-plus.apk"
@@ -2949,7 +2949,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 61181153,
-        "download_count": 25168,
+        "download_count": 25169,
         "created_at": "2022-04-27T17:01:42Z",
         "updated_at": "2022-04-27T17:02:01Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.8-build-312/frostwire-6.9.8-x86_64.dmg"
@@ -3239,7 +3239,7 @@
         "content_type": "application/vnd.android.package-archive",
         "state": "uploaded",
         "size": 41708552,
-        "download_count": 46738,
+        "download_count": 46740,
         "created_at": "2022-04-22T21:31:52Z",
         "updated_at": "2022-04-22T21:32:02Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-android-2.4.8-build-691/frostwire-android-release-2.4.8-b691-plus.apk"
@@ -3313,7 +3313,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 11124976,
-        "download_count": 7,
+        "download_count": 8,
         "created_at": "2022-04-27T00:50:20Z",
         "updated_at": "2022-04-27T00:50:25Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/telluride-build-22/telluride.exe"
@@ -3995,7 +3995,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 61250146,
-        "download_count": 23153,
+        "download_count": 23154,
         "created_at": "2022-01-14T15:55:28Z",
         "updated_at": "2022-01-14T15:57:02Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.7-build-311/frostwire-6.9.7-x86_64.dmg"
@@ -4131,7 +4131,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 52859048,
-        "download_count": 150866,
+        "download_count": 150867,
         "created_at": "2022-01-14T02:05:07Z",
         "updated_at": "2022-01-14T02:07:00Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.7-build-311/frostwire-6.9.7.windows.github.exe"
@@ -4523,7 +4523,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 62422164,
-        "download_count": 10731,
+        "download_count": 10732,
         "created_at": "2021-11-26T19:11:56Z",
         "updated_at": "2021-11-26T19:12:16Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.6-build-310/frostwire-6.9.6.dmg"
@@ -4557,7 +4557,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 53545544,
-        "download_count": 2067,
+        "download_count": 2069,
         "created_at": "2021-11-23T16:26:32Z",
         "updated_at": "2021-11-23T16:27:01Z",
         "browser_download_url": "https://github.com/frostwire/frostwire/releases/download/frostwire-desktop-6.9.6-build-310/frostwire-6.9.6.windows.github.exe"

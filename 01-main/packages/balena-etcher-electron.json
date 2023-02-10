@@ -63,7 +63,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 67667088,
-        "download_count": 39,
+        "download_count": 170,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:15Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/balena-etcher-1.15.5.x86_64.rpm"
@@ -97,7 +97,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85382586,
-        "download_count": 148,
+        "download_count": 522,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:18Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/balena-etcher_1.15.5_amd64.deb"
@@ -131,7 +131,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 95370980,
-        "download_count": 16,
+        "download_count": 71,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:17Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/balenaEtcher-1.15.5-ia32-win.zip"
@@ -165,7 +165,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 99661439,
-        "download_count": 48,
+        "download_count": 302,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:17Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/balenaEtcher-1.15.5-win.zip"
@@ -199,7 +199,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94306378,
-        "download_count": 136,
+        "download_count": 360,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:18Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/balenaEtcher-1.15.5-x64.AppImage"
@@ -233,7 +233,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96580520,
-        "download_count": 106,
+        "download_count": 393,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:18Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/balenaEtcher-1.15.5.dmg"
@@ -267,7 +267,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 101676,
-        "download_count": 6,
+        "download_count": 11,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:12Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/balenaEtcher-1.15.5.dmg.blockmap"
@@ -301,7 +301,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 131461488,
-        "download_count": 145,
+        "download_count": 409,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:20Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/balenaEtcher-Portable-1.15.5.exe"
@@ -335,7 +335,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 146918080,
-        "download_count": 117,
+        "download_count": 407,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:21Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/balenaEtcher-Setup-1.15.5.exe"
@@ -369,7 +369,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 150750,
-        "download_count": 11,
+        "download_count": 30,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:12Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/balenaEtcher-Setup-1.15.5.exe.blockmap"
@@ -403,7 +403,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 7208,
-        "download_count": 6,
+        "download_count": 11,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:12Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/builder-debug.yml"
@@ -437,7 +437,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 410,
-        "download_count": 6,
+        "download_count": 15,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:12Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/latest-linux.yml"
@@ -471,7 +471,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 368,
-        "download_count": 6,
+        "download_count": 10,
         "created_at": "2023-02-03T11:06:11Z",
         "updated_at": "2023-02-03T11:06:12Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/latest-mac.yml"
@@ -505,7 +505,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 381,
-        "download_count": 7,
+        "download_count": 12,
         "created_at": "2023-02-03T11:06:12Z",
         "updated_at": "2023-02-03T11:06:12Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/tags/v1.15.5/latest.yml"
@@ -513,7 +513,19 @@
     ],
     "tarball_url": "https://api.github.com/repos/balena-io/etcher/tarball/tags/v1.15.5",
     "zipball_url": "https://api.github.com/repos/balena-io/etcher/zipball/tags/v1.15.5",
-    "body": "e6d33eda (revert auto-update feature, 2023-02-03)\n"
+    "body": "e6d33eda (revert auto-update feature, 2023-02-03)\n",
+    "reactions": {
+      "url": "https://api.github.com/repos/balena-io/etcher/releases/91251742/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    }
   },
   {
     "url": "https://api.github.com/repos/balena-io/etcher/releases/91173138",
@@ -579,7 +591,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 67665184,
-        "download_count": 23,
+        "download_count": 32,
         "created_at": "2023-02-02T18:25:28Z",
         "updated_at": "2023-02-02T18:25:34Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.4/balena-etcher-1.15.4.x86_64.rpm"
@@ -613,7 +625,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85379944,
-        "download_count": 98,
+        "download_count": 127,
         "created_at": "2023-02-02T18:25:28Z",
         "updated_at": "2023-02-02T18:25:34Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.4/balena-etcher_1.15.4_amd64.deb"
@@ -647,7 +659,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 95370985,
-        "download_count": 12,
+        "download_count": 15,
         "created_at": "2023-02-02T18:25:27Z",
         "updated_at": "2023-02-02T18:25:34Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.4/balenaEtcher-1.15.4-ia32-win.zip"
@@ -681,7 +693,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 99661379,
-        "download_count": 32,
+        "download_count": 36,
         "created_at": "2023-02-02T18:25:28Z",
         "updated_at": "2023-02-02T18:25:35Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.4/balenaEtcher-1.15.4-win.zip"
@@ -715,7 +727,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94306478,
-        "download_count": 55,
+        "download_count": 70,
         "created_at": "2023-02-02T18:25:28Z",
         "updated_at": "2023-02-02T18:25:34Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.4/balenaEtcher-1.15.4-x64.AppImage"
@@ -749,7 +761,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96579389,
-        "download_count": 50,
+        "download_count": 56,
         "created_at": "2023-02-02T18:25:28Z",
         "updated_at": "2023-02-02T18:25:34Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.4/balenaEtcher-1.15.4.dmg"
@@ -817,7 +829,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 131457208,
-        "download_count": 98,
+        "download_count": 131,
         "created_at": "2023-02-02T18:25:28Z",
         "updated_at": "2023-02-02T18:25:37Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.4/balenaEtcher-Portable-1.15.4.exe"
@@ -851,7 +863,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 146922472,
-        "download_count": 86,
+        "download_count": 113,
         "created_at": "2023-02-02T18:25:28Z",
         "updated_at": "2023-02-02T18:25:37Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.4/balenaEtcher-Setup-1.15.4.exe"
@@ -885,7 +897,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 150560,
-        "download_count": 14,
+        "download_count": 30,
         "created_at": "2023-02-02T18:25:28Z",
         "updated_at": "2023-02-02T18:25:29Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.4/balenaEtcher-Setup-1.15.4.exe.blockmap"
@@ -953,7 +965,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 410,
-        "download_count": 5,
+        "download_count": 6,
         "created_at": "2023-02-02T18:25:28Z",
         "updated_at": "2023-02-02T18:25:29Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.4/latest-linux.yml"
@@ -1107,7 +1119,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 67674968,
-        "download_count": 2,
+        "download_count": 5,
         "created_at": "2023-02-02T13:42:26Z",
         "updated_at": "2023-02-02T13:42:32Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.3/balena-etcher-1.15.3.x86_64.rpm"
@@ -1141,7 +1153,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85371668,
-        "download_count": 6,
+        "download_count": 10,
         "created_at": "2023-02-02T13:42:26Z",
         "updated_at": "2023-02-02T13:42:34Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.3/balena-etcher_1.15.3_amd64.deb"
@@ -1175,7 +1187,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 95356543,
-        "download_count": 4,
+        "download_count": 6,
         "created_at": "2023-02-02T13:42:26Z",
         "updated_at": "2023-02-02T13:42:32Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.3/balenaEtcher-1.15.3-ia32-win.zip"
@@ -1277,7 +1289,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96578233,
-        "download_count": 4,
+        "download_count": 5,
         "created_at": "2023-02-02T13:42:26Z",
         "updated_at": "2023-02-02T13:42:32Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.3/balenaEtcher-1.15.3.dmg"
@@ -1345,7 +1357,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 131445448,
-        "download_count": 25,
+        "download_count": 40,
         "created_at": "2023-02-02T13:42:26Z",
         "updated_at": "2023-02-02T13:42:35Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.3/balenaEtcher-Portable-1.15.3.exe"
@@ -1379,7 +1391,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 146900136,
-        "download_count": 27,
+        "download_count": 44,
         "created_at": "2023-02-02T13:42:26Z",
         "updated_at": "2023-02-02T13:42:34Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.3/balenaEtcher-Setup-1.15.3.exe"
@@ -1413,7 +1425,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149919,
-        "download_count": 10,
+        "download_count": 25,
         "created_at": "2023-02-02T13:42:26Z",
         "updated_at": "2023-02-02T13:42:26Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.3/balenaEtcher-Setup-1.15.3.exe.blockmap"
@@ -1481,7 +1493,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 410,
-        "download_count": 1,
+        "download_count": 2,
         "created_at": "2023-02-02T13:42:26Z",
         "updated_at": "2023-02-02T13:42:27Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.3/latest-linux.yml"
@@ -1549,7 +1561,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 381,
-        "download_count": 1,
+        "download_count": 2,
         "created_at": "2023-02-02T13:42:26Z",
         "updated_at": "2023-02-02T13:42:27Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.3/latest.yml"
@@ -1861,7 +1873,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 131445496,
-        "download_count": 33,
+        "download_count": 50,
         "created_at": "2023-02-01T14:50:49Z",
         "updated_at": "2023-02-01T14:50:56Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.2/balenaEtcher-Portable-1.15.2.exe"
@@ -1895,7 +1907,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 146897128,
-        "download_count": 36,
+        "download_count": 53,
         "created_at": "2023-02-01T14:50:49Z",
         "updated_at": "2023-02-01T14:50:58Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.2/balenaEtcher-Setup-1.15.2.exe"
@@ -1929,7 +1941,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 150143,
-        "download_count": 11,
+        "download_count": 26,
         "created_at": "2023-02-01T14:50:49Z",
         "updated_at": "2023-02-01T14:50:49Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.2/balenaEtcher-Setup-1.15.2.exe.blockmap"
@@ -2151,7 +2163,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 67644976,
-        "download_count": 18,
+        "download_count": 19,
         "created_at": "2023-02-01T12:08:26Z",
         "updated_at": "2023-02-01T12:08:31Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.1/balena-etcher-1.15.1.x86_64.rpm"
@@ -2253,7 +2265,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 99682877,
-        "download_count": 44,
+        "download_count": 45,
         "created_at": "2023-02-01T12:08:26Z",
         "updated_at": "2023-02-01T12:08:33Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.1/balenaEtcher-1.15.1-win.zip"
@@ -2321,7 +2333,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96614201,
-        "download_count": 77,
+        "download_count": 79,
         "created_at": "2023-02-01T12:08:27Z",
         "updated_at": "2023-02-01T12:08:33Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.1/balenaEtcher-1.15.1.dmg"
@@ -2389,7 +2401,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 131451464,
-        "download_count": 112,
+        "download_count": 135,
         "created_at": "2023-02-01T12:08:26Z",
         "updated_at": "2023-02-01T12:08:33Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.1/balenaEtcher-Portable-1.15.1.exe"
@@ -2423,7 +2435,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 146962344,
-        "download_count": 115,
+        "download_count": 132,
         "created_at": "2023-02-01T12:08:26Z",
         "updated_at": "2023-02-01T12:08:34Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.1/balenaEtcher-Setup-1.15.1.exe"
@@ -2457,7 +2469,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149725,
-        "download_count": 17,
+        "download_count": 32,
         "created_at": "2023-02-01T12:08:26Z",
         "updated_at": "2023-02-01T12:08:27Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.15.1/balenaEtcher-Setup-1.15.1.exe.blockmap"
@@ -2667,7 +2679,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 67667528,
-        "download_count": 654,
+        "download_count": 817,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:17Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/balena-etcher-1.14.3.x86_64.rpm"
@@ -2701,7 +2713,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85226398,
-        "download_count": 2615,
+        "download_count": 3298,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:18Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/balena-etcher_1.14.3_amd64.deb"
@@ -2735,7 +2747,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 94438280,
-        "download_count": 223,
+        "download_count": 273,
         "created_at": "2023-01-19T11:39:10Z",
         "updated_at": "2023-01-19T11:39:17Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/balenaEtcher-1.14.3-ia32-win.zip"
@@ -2769,7 +2781,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 98728713,
-        "download_count": 869,
+        "download_count": 1065,
         "created_at": "2023-01-19T11:39:10Z",
         "updated_at": "2023-01-19T11:39:17Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/balenaEtcher-1.14.3-win.zip"
@@ -2803,7 +2815,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94162624,
-        "download_count": 72912,
+        "download_count": 102158,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:19Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/balenaEtcher-1.14.3-x64.AppImage"
@@ -2837,7 +2849,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96471605,
-        "download_count": 39320,
+        "download_count": 58795,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:18Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/balenaEtcher-1.14.3.dmg"
@@ -2871,7 +2883,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 101051,
-        "download_count": 49,
+        "download_count": 63,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:11Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/balenaEtcher-1.14.3.dmg.blockmap"
@@ -2905,7 +2917,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 130787944,
-        "download_count": 70932,
+        "download_count": 101901,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:18Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/balenaEtcher-Portable-1.14.3.exe"
@@ -2939,7 +2951,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145431432,
-        "download_count": 211497,
+        "download_count": 297050,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:19Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/balenaEtcher-Setup-1.14.3.exe"
@@ -2973,7 +2985,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 148568,
-        "download_count": 68998,
+        "download_count": 91983,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:11Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/balenaEtcher-Setup-1.14.3.exe.blockmap"
@@ -3007,7 +3019,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 7208,
-        "download_count": 24,
+        "download_count": 34,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:11Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/builder-debug.yml"
@@ -3041,7 +3053,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 410,
-        "download_count": 14088,
+        "download_count": 19143,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:11Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/latest-linux.yml"
@@ -3075,7 +3087,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 368,
-        "download_count": 195715,
+        "download_count": 288974,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:11Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/latest-mac.yml"
@@ -3109,7 +3121,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 381,
-        "download_count": 192009,
+        "download_count": 290456,
         "created_at": "2023-01-19T11:39:11Z",
         "updated_at": "2023-01-19T11:39:11Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.3/latest.yml"
@@ -3229,7 +3241,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85224336,
-        "download_count": 190,
+        "download_count": 191,
         "created_at": "2023-01-17T14:32:56Z",
         "updated_at": "2023-01-17T14:33:03Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.2/balena-etcher_1.14.2_amd64.deb"
@@ -3263,7 +3275,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 94438252,
-        "download_count": 26,
+        "download_count": 27,
         "created_at": "2023-01-17T14:32:56Z",
         "updated_at": "2023-01-17T14:33:02Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.2/balenaEtcher-1.14.2-ia32-win.zip"
@@ -3331,7 +3343,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94162705,
-        "download_count": 110,
+        "download_count": 111,
         "created_at": "2023-01-17T14:32:57Z",
         "updated_at": "2023-01-17T14:33:07Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.2/balenaEtcher-1.14.2-x64.AppImage"
@@ -3365,7 +3377,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96472346,
-        "download_count": 121,
+        "download_count": 123,
         "created_at": "2023-01-17T14:32:56Z",
         "updated_at": "2023-01-17T14:33:03Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.2/balenaEtcher-1.14.2.dmg"
@@ -3433,7 +3445,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 130787872,
-        "download_count": 266,
+        "download_count": 281,
         "created_at": "2023-01-17T14:32:56Z",
         "updated_at": "2023-01-17T14:33:04Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.2/balenaEtcher-Portable-1.14.2.exe"
@@ -3467,7 +3479,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145431296,
-        "download_count": 3568,
+        "download_count": 3596,
         "created_at": "2023-01-17T14:32:57Z",
         "updated_at": "2023-01-17T14:33:04Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.2/balenaEtcher-Setup-1.14.2.exe"
@@ -3501,7 +3513,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149493,
-        "download_count": 789,
+        "download_count": 831,
         "created_at": "2023-01-17T14:32:57Z",
         "updated_at": "2023-01-17T14:32:57Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.2/balenaEtcher-Setup-1.14.2.exe.blockmap"
@@ -3637,7 +3649,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 381,
-        "download_count": 12,
+        "download_count": 13,
         "created_at": "2023-01-17T14:32:56Z",
         "updated_at": "2023-01-17T14:32:57Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.2/latest.yml"
@@ -3723,7 +3735,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 67652916,
-        "download_count": 27,
+        "download_count": 28,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:27Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/balena-etcher-1.14.1.x86_64.rpm"
@@ -3757,7 +3769,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85224250,
-        "download_count": 78,
+        "download_count": 79,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:30Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/balena-etcher_1.14.1_amd64.deb"
@@ -3791,7 +3803,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 94436246,
-        "download_count": 18,
+        "download_count": 19,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:29Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/balenaEtcher-1.14.1-ia32-win.zip"
@@ -3825,7 +3837,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 98726697,
-        "download_count": 52,
+        "download_count": 53,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:28Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/balenaEtcher-1.14.1-win.zip"
@@ -3859,7 +3871,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94162684,
-        "download_count": 75,
+        "download_count": 76,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:28Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/balenaEtcher-1.14.1-x64.AppImage"
@@ -3893,7 +3905,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96479564,
-        "download_count": 128,
+        "download_count": 129,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:29Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/balenaEtcher-1.14.1.dmg"
@@ -3927,7 +3939,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 102023,
-        "download_count": 12,
+        "download_count": 13,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:22Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/balenaEtcher-1.14.1.dmg.blockmap"
@@ -3961,7 +3973,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 130802800,
-        "download_count": 189,
+        "download_count": 205,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:30Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/balenaEtcher-Portable-1.14.1.exe"
@@ -3995,7 +4007,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145426480,
-        "download_count": 129,
+        "download_count": 154,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:30Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/balenaEtcher-Setup-1.14.1.exe"
@@ -4029,7 +4041,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 148442,
-        "download_count": 108,
+        "download_count": 205,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:23Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/balenaEtcher-Setup-1.14.1.exe.blockmap"
@@ -4063,7 +4075,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 7208,
-        "download_count": 10,
+        "download_count": 11,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:23Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/builder-debug.yml"
@@ -4097,7 +4109,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 410,
-        "download_count": 14,
+        "download_count": 15,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:23Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/latest-linux.yml"
@@ -4131,7 +4143,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 368,
-        "download_count": 12,
+        "download_count": 13,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:26Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/latest-mac.yml"
@@ -4165,7 +4177,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 381,
-        "download_count": 10,
+        "download_count": 11,
         "created_at": "2023-01-16T13:04:22Z",
         "updated_at": "2023-01-16T13:04:23Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.1/latest.yml"
@@ -4239,7 +4251,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 67642028,
-        "download_count": 11,
+        "download_count": 12,
         "created_at": "2023-01-12T16:02:09Z",
         "updated_at": "2023-01-12T16:02:14Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/balena-etcher-1.14.0.x86_64.rpm"
@@ -4273,7 +4285,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85223810,
-        "download_count": 25,
+        "download_count": 27,
         "created_at": "2023-01-12T16:02:09Z",
         "updated_at": "2023-01-12T16:02:15Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/balena-etcher_1.14.0_amd64.deb"
@@ -4307,7 +4319,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 94436249,
-        "download_count": 11,
+        "download_count": 12,
         "created_at": "2023-01-12T16:02:09Z",
         "updated_at": "2023-01-12T16:02:17Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/balenaEtcher-1.14.0-ia32-win.zip"
@@ -4341,7 +4353,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 98726634,
-        "download_count": 24,
+        "download_count": 25,
         "created_at": "2023-01-12T16:02:10Z",
         "updated_at": "2023-01-12T16:02:17Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/balenaEtcher-1.14.0-win.zip"
@@ -4375,7 +4387,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94162735,
-        "download_count": 24,
+        "download_count": 25,
         "created_at": "2023-01-12T16:02:10Z",
         "updated_at": "2023-01-12T16:02:14Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/balenaEtcher-1.14.0-x64.AppImage"
@@ -4409,7 +4421,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96478127,
-        "download_count": 21,
+        "download_count": 22,
         "created_at": "2023-01-12T16:02:09Z",
         "updated_at": "2023-01-12T16:02:16Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/balenaEtcher-1.14.0.dmg"
@@ -4443,7 +4455,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 102273,
-        "download_count": 7,
+        "download_count": 8,
         "created_at": "2023-01-12T16:02:09Z",
         "updated_at": "2023-01-12T16:02:10Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/balenaEtcher-1.14.0.dmg.blockmap"
@@ -4477,7 +4489,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 130790104,
-        "download_count": 89,
+        "download_count": 105,
         "created_at": "2023-01-12T16:02:10Z",
         "updated_at": "2023-01-12T16:02:17Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/balenaEtcher-Portable-1.14.0.exe"
@@ -4511,7 +4523,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145432456,
-        "download_count": 96,
+        "download_count": 113,
         "created_at": "2023-01-12T16:02:09Z",
         "updated_at": "2023-01-12T16:02:16Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/balenaEtcher-Setup-1.14.0.exe"
@@ -4545,7 +4557,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149374,
-        "download_count": 129,
+        "download_count": 164,
         "created_at": "2023-01-12T16:02:09Z",
         "updated_at": "2023-01-12T16:02:10Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/balenaEtcher-Setup-1.14.0.exe.blockmap"
@@ -4579,7 +4591,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 7208,
-        "download_count": 9,
+        "download_count": 10,
         "created_at": "2023-01-12T16:02:10Z",
         "updated_at": "2023-01-12T16:02:10Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/builder-debug.yml"
@@ -4613,7 +4625,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 410,
-        "download_count": 8,
+        "download_count": 9,
         "created_at": "2023-01-12T16:02:10Z",
         "updated_at": "2023-01-12T16:02:10Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/latest-linux.yml"
@@ -4647,7 +4659,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 368,
-        "download_count": 9,
+        "download_count": 10,
         "created_at": "2023-01-12T16:02:10Z",
         "updated_at": "2023-01-12T16:02:10Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/latest-mac.yml"
@@ -4681,7 +4693,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 381,
-        "download_count": 8,
+        "download_count": 9,
         "created_at": "2023-01-12T16:02:10Z",
         "updated_at": "2023-01-12T16:02:10Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.14.0/latest.yml"
@@ -4767,7 +4779,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 67641400,
-        "download_count": 71,
+        "download_count": 73,
         "created_at": "2023-01-12T14:28:54Z",
         "updated_at": "2023-01-12T14:28:59Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/balena-etcher-1.13.4.x86_64.rpm"
@@ -4801,7 +4813,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85183040,
-        "download_count": 240,
+        "download_count": 241,
         "created_at": "2023-01-12T14:28:53Z",
         "updated_at": "2023-01-12T14:29:00Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/balena-etcher_1.13.4_amd64.deb"
@@ -4835,7 +4847,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 94372071,
-        "download_count": 29,
+        "download_count": 31,
         "created_at": "2023-01-12T14:28:53Z",
         "updated_at": "2023-01-12T14:28:59Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/balenaEtcher-1.13.4-ia32-win.zip"
@@ -4869,7 +4881,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 98662472,
-        "download_count": 75,
+        "download_count": 77,
         "created_at": "2023-01-12T14:28:53Z",
         "updated_at": "2023-01-12T14:28:59Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/balenaEtcher-1.13.4-win.zip"
@@ -4903,7 +4915,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94088830,
-        "download_count": 169,
+        "download_count": 170,
         "created_at": "2023-01-12T14:28:53Z",
         "updated_at": "2023-01-12T14:29:01Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/balenaEtcher-1.13.4-x64.AppImage"
@@ -4937,7 +4949,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96425215,
-        "download_count": 193,
+        "download_count": 194,
         "created_at": "2023-01-12T14:28:53Z",
         "updated_at": "2023-01-12T14:28:59Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/balenaEtcher-1.13.4.dmg"
@@ -4971,7 +4983,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 102547,
-        "download_count": 12,
+        "download_count": 14,
         "created_at": "2023-01-12T14:28:53Z",
         "updated_at": "2023-01-12T14:28:54Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/balenaEtcher-1.13.4.dmg.blockmap"
@@ -5005,7 +5017,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 130742616,
-        "download_count": 398,
+        "download_count": 416,
         "created_at": "2023-01-12T14:28:53Z",
         "updated_at": "2023-01-12T14:29:01Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/balenaEtcher-Portable-1.13.4.exe"
@@ -5039,7 +5051,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145364176,
-        "download_count": 1679,
+        "download_count": 1696,
         "created_at": "2023-01-12T14:28:54Z",
         "updated_at": "2023-01-12T14:29:01Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/balenaEtcher-Setup-1.13.4.exe"
@@ -5073,7 +5085,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149646,
-        "download_count": 1535,
+        "download_count": 1651,
         "created_at": "2023-01-12T14:28:54Z",
         "updated_at": "2023-01-12T14:28:54Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/balenaEtcher-Setup-1.13.4.exe.blockmap"
@@ -5107,7 +5119,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 7208,
-        "download_count": 9,
+        "download_count": 10,
         "created_at": "2023-01-12T14:28:54Z",
         "updated_at": "2023-01-12T14:28:54Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/builder-debug.yml"
@@ -5141,7 +5153,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 410,
-        "download_count": 13,
+        "download_count": 14,
         "created_at": "2023-01-12T14:28:54Z",
         "updated_at": "2023-01-12T14:28:54Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/latest-linux.yml"
@@ -5175,7 +5187,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 368,
-        "download_count": 12,
+        "download_count": 13,
         "created_at": "2023-01-12T14:28:54Z",
         "updated_at": "2023-01-12T14:28:54Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/latest-mac.yml"
@@ -5209,7 +5221,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 381,
-        "download_count": 11,
+        "download_count": 13,
         "created_at": "2023-01-12T14:28:54Z",
         "updated_at": "2023-01-12T14:28:54Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.4/latest.yml"
@@ -5329,7 +5341,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85250174,
-        "download_count": 14075,
+        "download_count": 15538,
         "created_at": "2023-01-11T13:09:22Z",
         "updated_at": "2023-01-11T13:09:27Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.3/balena-etcher_1.13.3_amd64.deb"
@@ -5397,7 +5409,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 98662147,
-        "download_count": 608,
+        "download_count": 609,
         "created_at": "2023-01-11T13:09:23Z",
         "updated_at": "2023-01-11T13:09:29Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.3/balenaEtcher-1.13.3-win.zip"
@@ -5431,7 +5443,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94088859,
-        "download_count": 27602,
+        "download_count": 27616,
         "created_at": "2023-01-11T13:09:23Z",
         "updated_at": "2023-01-11T13:09:28Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.3/balenaEtcher-1.13.3-x64.AppImage"
@@ -5465,7 +5477,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96425906,
-        "download_count": 16316,
+        "download_count": 16318,
         "created_at": "2023-01-11T13:09:23Z",
         "updated_at": "2023-01-11T13:09:28Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.3/balenaEtcher-1.13.3.dmg"
@@ -5533,7 +5545,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 130745072,
-        "download_count": 24921,
+        "download_count": 24962,
         "created_at": "2023-01-11T13:09:23Z",
         "updated_at": "2023-01-11T13:09:30Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.3/balenaEtcher-Portable-1.13.3.exe"
@@ -5567,7 +5579,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145362128,
-        "download_count": 159711,
+        "download_count": 159760,
         "created_at": "2023-01-11T13:09:23Z",
         "updated_at": "2023-01-11T13:09:31Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.3/balenaEtcher-Setup-1.13.3.exe"
@@ -5601,7 +5613,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 148491,
-        "download_count": 148682,
+        "download_count": 152582,
         "created_at": "2023-01-11T13:09:23Z",
         "updated_at": "2023-01-11T13:09:23Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.3/balenaEtcher-Setup-1.13.3.exe.blockmap"
@@ -5669,7 +5681,7 @@
         "content_type": "text/yaml",
         "state": "uploaded",
         "size": 410,
-        "download_count": 17556,
+        "download_count": 17557,
         "created_at": "2023-01-11T13:09:23Z",
         "updated_at": "2023-01-11T13:09:23Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.3/latest-linux.yml"
@@ -6061,7 +6073,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 130750080,
-        "download_count": 501,
+        "download_count": 516,
         "created_at": "2023-01-02T20:53:45Z",
         "updated_at": "2023-01-02T20:53:52Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.2/balenaEtcher-Portable-1.13.2.exe"
@@ -6095,7 +6107,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145361464,
-        "download_count": 3357,
+        "download_count": 3373,
         "created_at": "2023-01-02T20:53:45Z",
         "updated_at": "2023-01-02T20:53:52Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.2/balenaEtcher-Setup-1.13.2.exe"
@@ -6129,7 +6141,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 148581,
-        "download_count": 556,
+        "download_count": 584,
         "created_at": "2023-01-02T20:53:45Z",
         "updated_at": "2023-01-02T20:53:45Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.2/balenaEtcher-Setup-1.13.2.exe.blockmap"
@@ -6339,7 +6351,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 67640056,
-        "download_count": 403,
+        "download_count": 404,
         "created_at": "2023-01-02T17:17:54Z",
         "updated_at": "2023-01-02T17:17:57Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.1/balena-etcher-1.13.1.x86_64.rpm"
@@ -6373,7 +6385,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85248910,
-        "download_count": 7929,
+        "download_count": 7931,
         "created_at": "2023-01-02T17:17:54Z",
         "updated_at": "2023-01-02T17:17:58Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.1/balena-etcher_1.13.1_amd64.deb"
@@ -6475,7 +6487,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94088889,
-        "download_count": 136308,
+        "download_count": 136348,
         "created_at": "2023-01-02T17:17:54Z",
         "updated_at": "2023-01-02T17:17:57Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.1/balenaEtcher-1.13.1-x64.AppImage"
@@ -6509,7 +6521,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96424858,
-        "download_count": 74766,
+        "download_count": 74798,
         "created_at": "2023-01-02T17:17:54Z",
         "updated_at": "2023-01-02T17:17:58Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.1/balenaEtcher-1.13.1.dmg"
@@ -6577,7 +6589,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 130740128,
-        "download_count": 95064,
+        "download_count": 95239,
         "created_at": "2023-01-02T17:17:54Z",
         "updated_at": "2023-01-02T17:17:59Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.1/balenaEtcher-Portable-1.13.1.exe"
@@ -6611,7 +6623,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145363048,
-        "download_count": 322545,
+        "download_count": 322734,
         "created_at": "2023-01-02T17:17:54Z",
         "updated_at": "2023-01-02T17:17:58Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.1/balenaEtcher-Setup-1.13.1.exe"
@@ -6645,7 +6657,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149713,
-        "download_count": 147269,
+        "download_count": 151495,
         "created_at": "2023-01-02T17:17:54Z",
         "updated_at": "2023-01-02T17:17:54Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.1/balenaEtcher-Setup-1.13.1.exe.blockmap"
@@ -6901,7 +6913,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 85200194,
-        "download_count": 690,
+        "download_count": 700,
         "created_at": "2022-12-23T21:02:28Z",
         "updated_at": "2022-12-23T21:02:34Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.0/balena-etcher_1.13.0_amd64.deb"
@@ -7003,7 +7015,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94068275,
-        "download_count": 672,
+        "download_count": 677,
         "created_at": "2022-12-23T21:02:28Z",
         "updated_at": "2022-12-23T21:02:33Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.0/balenaEtcher-1.13.0-x64.AppImage"
@@ -7105,7 +7117,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 130732760,
-        "download_count": 435,
+        "download_count": 450,
         "created_at": "2022-12-23T21:02:29Z",
         "updated_at": "2022-12-23T21:02:35Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.0/balenaEtcher-Portable-1.13.0.exe"
@@ -7139,7 +7151,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145328656,
-        "download_count": 2186,
+        "download_count": 2201,
         "created_at": "2022-12-23T21:02:28Z",
         "updated_at": "2022-12-23T21:02:34Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.0/balenaEtcher-Setup-1.13.0.exe"
@@ -7173,7 +7185,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 148348,
-        "download_count": 315,
+        "download_count": 331,
         "created_at": "2022-12-23T21:02:28Z",
         "updated_at": "2022-12-23T21:02:29Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.13.0/balenaEtcher-Setup-1.13.0.exe.blockmap"
@@ -7633,7 +7645,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129513952,
-        "download_count": 505,
+        "download_count": 520,
         "created_at": "2022-12-20T19:32:49Z",
         "updated_at": "2022-12-20T19:32:56Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.7/balenaEtcher-Portable-1.12.7.exe"
@@ -7667,7 +7679,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145089848,
-        "download_count": 2735,
+        "download_count": 2750,
         "created_at": "2022-12-20T19:32:49Z",
         "updated_at": "2022-12-20T19:32:56Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.7/balenaEtcher-Setup-1.12.7.exe"
@@ -7701,7 +7713,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149898,
-        "download_count": 322,
+        "download_count": 348,
         "created_at": "2022-12-20T19:32:49Z",
         "updated_at": "2022-12-20T19:32:49Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.7/balenaEtcher-Setup-1.12.7.exe.blockmap"
@@ -8161,7 +8173,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129518000,
-        "download_count": 110,
+        "download_count": 125,
         "created_at": "2022-12-20T17:34:21Z",
         "updated_at": "2022-12-20T17:34:28Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.6/balenaEtcher-Portable-1.12.6.exe"
@@ -8195,7 +8207,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145088896,
-        "download_count": 99,
+        "download_count": 114,
         "created_at": "2022-12-20T17:34:20Z",
         "updated_at": "2022-12-20T17:34:28Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.6/balenaEtcher-Setup-1.12.6.exe"
@@ -8229,7 +8241,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149229,
-        "download_count": 88,
+        "download_count": 103,
         "created_at": "2022-12-20T17:34:20Z",
         "updated_at": "2022-12-20T17:34:21Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.6/balenaEtcher-Setup-1.12.6.exe.blockmap"
@@ -8439,7 +8451,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 67524748,
-        "download_count": 11,
+        "download_count": 12,
         "created_at": "2022-12-20T12:25:40Z",
         "updated_at": "2022-12-20T12:25:45Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.5/balena-etcher-1.12.5.x86_64.rpm"
@@ -8473,7 +8485,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 86869844,
-        "download_count": 89,
+        "download_count": 90,
         "created_at": "2022-12-20T12:25:40Z",
         "updated_at": "2022-12-20T12:25:46Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.5/balena-etcher_1.12.5_amd64.deb"
@@ -8677,7 +8689,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129514488,
-        "download_count": 134,
+        "download_count": 149,
         "created_at": "2022-12-20T12:25:41Z",
         "updated_at": "2022-12-20T12:25:47Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.5/balenaEtcher-Portable-1.12.5.exe"
@@ -8711,7 +8723,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145088744,
-        "download_count": 128,
+        "download_count": 143,
         "created_at": "2022-12-20T12:25:40Z",
         "updated_at": "2022-12-20T12:25:48Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.5/balenaEtcher-Setup-1.12.5.exe"
@@ -8745,7 +8757,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149792,
-        "download_count": 87,
+        "download_count": 102,
         "created_at": "2022-12-20T12:25:41Z",
         "updated_at": "2022-12-20T12:25:41Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.5/balenaEtcher-Setup-1.12.5.exe.blockmap"
@@ -8955,7 +8967,7 @@
         "content_type": "application/x-redhat-package-manager",
         "state": "uploaded",
         "size": 67543584,
-        "download_count": 22,
+        "download_count": 23,
         "created_at": "2022-12-19T19:39:51Z",
         "updated_at": "2022-12-19T19:39:56Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.4/balena-etcher-1.12.4.x86_64.rpm"
@@ -8989,7 +9001,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 86869842,
-        "download_count": 95,
+        "download_count": 96,
         "created_at": "2022-12-19T19:39:50Z",
         "updated_at": "2022-12-19T19:39:56Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.4/balena-etcher_1.12.4_amd64.deb"
@@ -9193,7 +9205,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129522496,
-        "download_count": 168,
+        "download_count": 184,
         "created_at": "2022-12-19T19:39:51Z",
         "updated_at": "2022-12-19T19:40:00Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.4/balenaEtcher-Portable-1.12.4.exe"
@@ -9227,7 +9239,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145095280,
-        "download_count": 160,
+        "download_count": 175,
         "created_at": "2022-12-19T19:39:50Z",
         "updated_at": "2022-12-19T19:39:58Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.4/balenaEtcher-Setup-1.12.4.exe"
@@ -9261,7 +9273,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 150014,
-        "download_count": 94,
+        "download_count": 109,
         "created_at": "2022-12-19T19:39:51Z",
         "updated_at": "2022-12-19T19:39:51Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.4/balenaEtcher-Setup-1.12.4.exe.blockmap"
@@ -9709,7 +9721,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129517280,
-        "download_count": 157,
+        "download_count": 172,
         "created_at": "2022-12-16T20:13:29Z",
         "updated_at": "2022-12-16T20:13:35Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.3/balenaEtcher-Portable-1.12.3.exe"
@@ -9743,7 +9755,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145079120,
-        "download_count": 149,
+        "download_count": 164,
         "created_at": "2022-12-16T20:13:29Z",
         "updated_at": "2022-12-16T20:13:36Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.3/balenaEtcher-Setup-1.12.3.exe"
@@ -9777,7 +9789,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149855,
-        "download_count": 80,
+        "download_count": 96,
         "created_at": "2022-12-16T20:13:29Z",
         "updated_at": "2022-12-16T20:13:30Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.3/balenaEtcher-Setup-1.12.3.exe.blockmap"
@@ -10225,7 +10237,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129510744,
-        "download_count": 285,
+        "download_count": 301,
         "created_at": "2022-12-16T16:29:34Z",
         "updated_at": "2022-12-16T16:29:41Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.2/balenaEtcher-Portable-1.12.2.exe"
@@ -10259,7 +10271,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145088432,
-        "download_count": 264,
+        "download_count": 280,
         "created_at": "2022-12-16T16:29:35Z",
         "updated_at": "2022-12-16T16:29:42Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.2/balenaEtcher-Setup-1.12.2.exe"
@@ -10293,7 +10305,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149799,
-        "download_count": 93,
+        "download_count": 108,
         "created_at": "2022-12-16T16:29:35Z",
         "updated_at": "2022-12-16T16:29:35Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.2/balenaEtcher-Setup-1.12.2.exe.blockmap"
@@ -10741,7 +10753,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129515568,
-        "download_count": 111,
+        "download_count": 126,
         "created_at": "2022-12-16T14:57:38Z",
         "updated_at": "2022-12-16T14:57:46Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.1/balenaEtcher-Portable-1.12.1.exe"
@@ -10775,7 +10787,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145097048,
-        "download_count": 108,
+        "download_count": 123,
         "created_at": "2022-12-16T14:57:38Z",
         "updated_at": "2022-12-16T14:57:46Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.1/balenaEtcher-Setup-1.12.1.exe"
@@ -10809,7 +10821,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149698,
-        "download_count": 89,
+        "download_count": 104,
         "created_at": "2022-12-16T14:57:39Z",
         "updated_at": "2022-12-16T14:57:39Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.1/balenaEtcher-Setup-1.12.1.exe.blockmap"
@@ -11065,7 +11077,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 86734528,
-        "download_count": 302,
+        "download_count": 304,
         "created_at": "2022-12-14T15:23:17Z",
         "updated_at": "2022-12-14T15:23:23Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.0/balena-etcher_1.12.0_amd64.deb"
@@ -11167,7 +11179,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 96025487,
-        "download_count": 260,
+        "download_count": 262,
         "created_at": "2022-12-14T15:23:17Z",
         "updated_at": "2022-12-14T15:23:21Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.0/balenaEtcher-1.12.0-x64.AppImage"
@@ -11269,7 +11281,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129516864,
-        "download_count": 262,
+        "download_count": 277,
         "created_at": "2022-12-14T15:23:18Z",
         "updated_at": "2022-12-14T15:23:26Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.0/balenaEtcher-Portable-1.12.0.exe"
@@ -11303,7 +11315,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145089216,
-        "download_count": 279,
+        "download_count": 294,
         "created_at": "2022-12-14T15:23:18Z",
         "updated_at": "2022-12-14T15:23:25Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.0/balenaEtcher-Setup-1.12.0.exe"
@@ -11337,7 +11349,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149210,
-        "download_count": 189,
+        "download_count": 204,
         "created_at": "2022-12-14T15:23:18Z",
         "updated_at": "2022-12-14T15:23:18Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.12.0/balenaEtcher-Setup-1.12.0.exe.blockmap"
@@ -11785,7 +11797,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129474264,
-        "download_count": 235,
+        "download_count": 250,
         "created_at": "2022-12-13T01:53:52Z",
         "updated_at": "2022-12-13T01:53:58Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.10/balenaEtcher-Portable-1.11.10.exe"
@@ -11819,7 +11831,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145012168,
-        "download_count": 221,
+        "download_count": 236,
         "created_at": "2022-12-13T01:53:52Z",
         "updated_at": "2022-12-13T01:53:58Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.10/balenaEtcher-Setup-1.11.10.exe"
@@ -11853,7 +11865,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149671,
-        "download_count": 102,
+        "download_count": 117,
         "created_at": "2022-12-13T01:53:52Z",
         "updated_at": "2022-12-13T01:53:52Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.10/balenaEtcher-Setup-1.11.10.exe.blockmap"
@@ -12313,7 +12325,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129475072,
-        "download_count": 110,
+        "download_count": 125,
         "created_at": "2022-12-12T23:33:40Z",
         "updated_at": "2022-12-12T23:33:48Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.9/balenaEtcher-Portable-1.11.9.exe"
@@ -12347,7 +12359,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145001040,
-        "download_count": 97,
+        "download_count": 112,
         "created_at": "2022-12-12T23:33:40Z",
         "updated_at": "2022-12-12T23:33:48Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.9/balenaEtcher-Setup-1.11.9.exe"
@@ -12381,7 +12393,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149645,
-        "download_count": 79,
+        "download_count": 94,
         "created_at": "2022-12-12T23:33:40Z",
         "updated_at": "2022-12-12T23:33:41Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.9/balenaEtcher-Setup-1.11.9.exe.blockmap"
@@ -12829,7 +12841,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129464752,
-        "download_count": 94,
+        "download_count": 109,
         "created_at": "2022-12-12T21:32:03Z",
         "updated_at": "2022-12-12T21:32:10Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.8/balenaEtcher-Portable-1.11.8.exe"
@@ -12863,7 +12875,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145003112,
-        "download_count": 92,
+        "download_count": 107,
         "created_at": "2022-12-12T21:32:04Z",
         "updated_at": "2022-12-12T21:32:13Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.8/balenaEtcher-Setup-1.11.8.exe"
@@ -12897,7 +12909,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149874,
-        "download_count": 83,
+        "download_count": 98,
         "created_at": "2022-12-12T21:32:04Z",
         "updated_at": "2022-12-12T21:32:04Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.8/balenaEtcher-Setup-1.11.8.exe.blockmap"
@@ -13345,7 +13357,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129472568,
-        "download_count": 90,
+        "download_count": 105,
         "created_at": "2022-12-12T19:30:08Z",
         "updated_at": "2022-12-12T19:30:16Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.7/balenaEtcher-Portable-1.11.7.exe"
@@ -13379,7 +13391,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145002952,
-        "download_count": 100,
+        "download_count": 115,
         "created_at": "2022-12-12T19:30:09Z",
         "updated_at": "2022-12-12T19:30:16Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.7/balenaEtcher-Setup-1.11.7.exe"
@@ -13413,7 +13425,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149516,
-        "download_count": 80,
+        "download_count": 95,
         "created_at": "2022-12-12T19:30:08Z",
         "updated_at": "2022-12-12T19:30:09Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.7/balenaEtcher-Setup-1.11.7.exe.blockmap"
@@ -13759,7 +13771,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 95972027,
-        "download_count": 33,
+        "download_count": 34,
         "created_at": "2022-12-12T17:47:40Z",
         "updated_at": "2022-12-12T17:47:46Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.6/balenaEtcher-1.11.6-x64.AppImage"
@@ -13793,7 +13805,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 97468646,
-        "download_count": 18,
+        "download_count": 19,
         "created_at": "2022-12-12T17:47:39Z",
         "updated_at": "2022-12-12T17:47:45Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.6/balenaEtcher-1.11.6.dmg"
@@ -13861,7 +13873,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129484200,
-        "download_count": 96,
+        "download_count": 111,
         "created_at": "2022-12-12T17:47:40Z",
         "updated_at": "2022-12-12T17:47:47Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.6/balenaEtcher-Portable-1.11.6.exe"
@@ -13895,7 +13907,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145007200,
-        "download_count": 103,
+        "download_count": 118,
         "created_at": "2022-12-12T17:47:40Z",
         "updated_at": "2022-12-12T17:47:47Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.6/balenaEtcher-Setup-1.11.6.exe"
@@ -13929,7 +13941,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149324,
-        "download_count": 82,
+        "download_count": 97,
         "created_at": "2022-12-12T17:47:40Z",
         "updated_at": "2022-12-12T17:47:40Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.6/balenaEtcher-Setup-1.11.6.exe.blockmap"
@@ -14389,7 +14401,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129481672,
-        "download_count": 324,
+        "download_count": 339,
         "created_at": "2022-12-10T12:26:19Z",
         "updated_at": "2022-12-10T12:26:28Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.5/balenaEtcher-Portable-1.11.5.exe"
@@ -14423,7 +14435,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145010888,
-        "download_count": 3262,
+        "download_count": 3277,
         "created_at": "2022-12-10T12:26:19Z",
         "updated_at": "2022-12-10T12:26:26Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.5/balenaEtcher-Setup-1.11.5.exe"
@@ -14457,7 +14469,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149920,
-        "download_count": 164,
+        "download_count": 182,
         "created_at": "2022-12-10T12:26:20Z",
         "updated_at": "2022-12-10T12:26:20Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.5/balenaEtcher-Setup-1.11.5.exe.blockmap"
@@ -14905,7 +14917,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129477672,
-        "download_count": 126,
+        "download_count": 141,
         "created_at": "2022-12-10T10:27:41Z",
         "updated_at": "2022-12-10T10:27:48Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.4/balenaEtcher-Portable-1.11.4.exe"
@@ -14939,7 +14951,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145012736,
-        "download_count": 223,
+        "download_count": 239,
         "created_at": "2022-12-10T10:27:41Z",
         "updated_at": "2022-12-10T10:27:48Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.4/balenaEtcher-Setup-1.11.4.exe"
@@ -14973,7 +14985,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149885,
-        "download_count": 95,
+        "download_count": 111,
         "created_at": "2022-12-10T10:27:41Z",
         "updated_at": "2022-12-10T10:27:42Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.4/balenaEtcher-Setup-1.11.4.exe.blockmap"
@@ -15421,7 +15433,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 129477368,
-        "download_count": 148,
+        "download_count": 163,
         "created_at": "2022-12-10T08:29:29Z",
         "updated_at": "2022-12-10T08:29:36Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.3/balenaEtcher-Portable-1.11.3.exe"
@@ -15455,7 +15467,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 145012872,
-        "download_count": 141,
+        "download_count": 156,
         "created_at": "2022-12-10T08:29:29Z",
         "updated_at": "2022-12-10T08:29:36Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.3/balenaEtcher-Setup-1.11.3.exe"
@@ -15489,7 +15501,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 149672,
-        "download_count": 81,
+        "download_count": 96,
         "created_at": "2022-12-10T08:29:29Z",
         "updated_at": "2022-12-10T08:29:30Z",
         "browser_download_url": "https://github.com/balena-io/etcher/releases/download/v1.11.3/balenaEtcher-Setup-1.11.3.exe.blockmap"

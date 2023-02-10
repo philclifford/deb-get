@@ -63,7 +63,7 @@
         "content_type": "application/x-yaml",
         "state": "uploaded",
         "size": 336,
-        "download_count": 311513,
+        "download_count": 316547,
         "created_at": "2022-04-18T09:30:12Z",
         "updated_at": "2022-04-18T09:30:13Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/latest.yml"
@@ -97,7 +97,7 @@
         "content_type": "application/x-yaml",
         "state": "uploaded",
         "size": 500,
-        "download_count": 48132,
+        "download_count": 48773,
         "created_at": "2022-04-18T09:30:13Z",
         "updated_at": "2022-04-18T09:30:14Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/latest-mac.yml"
@@ -131,7 +131,7 @@
         "content_type": "application/x-yaml",
         "state": "uploaded",
         "size": 358,
-        "download_count": 2625,
+        "download_count": 2667,
         "created_at": "2022-04-18T09:30:14Z",
         "updated_at": "2022-04-18T09:30:15Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/latest-linux.yml"
@@ -165,7 +165,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 88159864,
-        "download_count": 84,
+        "download_count": 85,
         "created_at": "2022-04-18T09:30:15Z",
         "updated_at": "2022-04-18T09:31:49Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/IGdm-3.0.4.zip"
@@ -233,7 +233,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 91862573,
-        "download_count": 17481,
+        "download_count": 17733,
         "created_at": "2022-04-18T09:31:50Z",
         "updated_at": "2022-04-18T09:33:49Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/IGdm-3.0.4.dmg"
@@ -267,7 +267,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 92597371,
-        "download_count": 9917,
+        "download_count": 10091,
         "created_at": "2022-04-18T09:33:49Z",
         "updated_at": "2022-04-18T09:36:07Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/IGdm-3.0.4.AppImage"
@@ -301,7 +301,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 89054973,
-        "download_count": 7169,
+        "download_count": 7240,
         "created_at": "2022-04-18T09:36:07Z",
         "updated_at": "2022-04-18T09:38:06Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/IGdm-3.0.4-mac.zip"
@@ -335,7 +335,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 64291622,
-        "download_count": 332,
+        "download_count": 334,
         "created_at": "2022-04-18T09:38:06Z",
         "updated_at": "2022-04-18T09:39:56Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/IGdm_3.0.4_amd64.deb"
@@ -369,7 +369,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 62862,
-        "download_count": 83480,
+        "download_count": 84277,
         "created_at": "2022-04-18T09:39:56Z",
         "updated_at": "2022-04-18T10:22:07Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/IGdm-Setup-3.0.4.exe.blockmap"
@@ -403,7 +403,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 60155875,
-        "download_count": 127868,
+        "download_count": 129394,
         "created_at": "2022-04-18T09:39:57Z",
         "updated_at": "2022-04-18T10:22:07Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/IGdm-Setup-3.0.4.exe"
@@ -437,7 +437,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 60000772,
-        "download_count": 253,
+        "download_count": 258,
         "created_at": "2022-04-18T09:41:20Z",
         "updated_at": "2022-04-18T09:42:48Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/IGdm.3.0.4.exe"
@@ -557,7 +557,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 118754252,
-        "download_count": 261184,
+        "download_count": 261196,
         "created_at": "2021-05-30T08:13:26Z",
         "updated_at": "2021-05-30T08:42:44Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.3/IGdm-Setup-3.0.3.exe"
@@ -591,7 +591,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 124968,
-        "download_count": 240861,
+        "download_count": 241037,
         "created_at": "2021-05-30T08:16:43Z",
         "updated_at": "2021-05-30T08:42:44Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.3/IGdm-Setup-3.0.3.exe.blockmap"
@@ -625,7 +625,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 64829720,
-        "download_count": 1169,
+        "download_count": 1172,
         "created_at": "2021-05-30T08:16:48Z",
         "updated_at": "2021-05-30T08:18:08Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.3/IGdm_3.0.3_amd64.deb"
@@ -829,7 +829,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94857222,
-        "download_count": 16568,
+        "download_count": 16569,
         "created_at": "2021-05-30T08:29:54Z",
         "updated_at": "2021-05-30T08:32:06Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.3/IGdm-3.0.3.dmg"
@@ -1277,7 +1277,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 93311499,
-        "download_count": 290,
+        "download_count": 291,
         "created_at": "2021-04-25T18:33:35Z",
         "updated_at": "2021-04-25T18:39:49Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.2/IGdm-3.0.2.AppImage"
@@ -1311,7 +1311,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 94617282,
-        "download_count": 6242,
+        "download_count": 6243,
         "created_at": "2021-04-25T18:39:49Z",
         "updated_at": "2021-04-25T18:44:13Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.2/IGdm-3.0.2.dmg"
@@ -1549,7 +1549,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 118622979,
-        "download_count": 74971,
+        "download_count": 74983,
         "created_at": "2021-04-26T16:05:24Z",
         "updated_at": "2021-04-26T16:19:25Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.2/IGdm-Setup-3.0.2.exe"
@@ -1583,7 +1583,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 124531,
-        "download_count": 128676,
+        "download_count": 128778,
         "created_at": "2021-04-26T16:10:33Z",
         "updated_at": "2021-04-26T16:19:25Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.2/IGdm-Setup-3.0.2.exe.blockmap"
@@ -1759,7 +1759,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 86573384,
-        "download_count": 489,
+        "download_count": 490,
         "created_at": "2020-05-02T16:57:45Z",
         "updated_at": "2020-05-02T17:40:12Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.1/IGdm.3.0.1.exe"
@@ -1827,7 +1827,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 90423,
-        "download_count": 1183054,
+        "download_count": 1183182,
         "created_at": "2020-05-02T19:27:01Z",
         "updated_at": "2020-05-02T23:03:12Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.1/IGdm-Setup-3.0.1.exe.blockmap"
@@ -2065,7 +2065,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 64996046,
-        "download_count": 1639,
+        "download_count": 1641,
         "created_at": "2020-05-02T22:04:03Z",
         "updated_at": "2020-05-02T22:30:31Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.1/IGdm-3.0.1.zip"
@@ -2377,7 +2377,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 86719506,
-        "download_count": 261117,
+        "download_count": 261133,
         "created_at": "2020-04-29T22:11:01Z",
         "updated_at": "2020-04-29T23:23:48Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.0/IGdm-Setup-3.0.0.exe"
@@ -2411,7 +2411,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 89790,
-        "download_count": 804148,
+        "download_count": 804341,
         "created_at": "2020-04-29T22:23:09Z",
         "updated_at": "2020-04-29T23:23:48Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.0/IGdm-Setup-3.0.0.exe.blockmap"
@@ -2581,7 +2581,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 66750621,
-        "download_count": 57049,
+        "download_count": 57050,
         "created_at": "2020-04-29T22:54:30Z",
         "updated_at": "2020-04-29T23:01:02Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.0/IGdm-3.0.0.dmg"
@@ -2893,7 +2893,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 60375454,
-        "download_count": 57396,
+        "download_count": 57397,
         "created_at": "2019-11-05T09:44:11Z",
         "updated_at": "2019-11-05T10:39:40Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.8.1/IGdm-2.8.1-x86_64.AppImage"
@@ -2961,7 +2961,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76347600,
-        "download_count": 4302132,
+        "download_count": 4302137,
         "created_at": "2019-11-05T09:44:12Z",
         "updated_at": "2019-11-05T10:39:40Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.8.1/IGdm-Setup-2.8.1.exe"
@@ -2995,7 +2995,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 79972,
-        "download_count": 2964268,
+        "download_count": 2964347,
         "created_at": "2019-11-05T09:44:13Z",
         "updated_at": "2019-11-05T10:39:40Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.8.1/IGdm-Setup-2.8.1.exe.blockmap"
@@ -3165,7 +3165,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 60255527,
-        "download_count": 274313,
+        "download_count": 274314,
         "created_at": "2019-11-05T09:44:15Z",
         "updated_at": "2019-11-05T10:22:35Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.8.1/IGdm-2.8.1.dmg"
@@ -3369,7 +3369,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 336,
-        "download_count": 25793096,
+        "download_count": 25793097,
         "created_at": "2019-11-05T09:44:18Z",
         "updated_at": "2019-11-05T10:27:57Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.8.1/latest.yml"
@@ -3579,7 +3579,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 79831,
-        "download_count": 902392,
+        "download_count": 902412,
         "created_at": "2019-10-31T20:06:09Z",
         "updated_at": "2019-11-01T09:33:57Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.8.0/IGdm-Setup-2.8.0.exe.blockmap"
@@ -3681,7 +3681,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 60313676,
-        "download_count": 107,
+        "download_count": 108,
         "created_at": "2019-10-31T20:06:11Z",
         "updated_at": "2019-10-31T20:34:10Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.8.0/IGdm-2.8.0-ia32.zip"
@@ -3715,7 +3715,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 58399921,
-        "download_count": 28582,
+        "download_count": 28585,
         "created_at": "2019-10-31T20:06:12Z",
         "updated_at": "2019-10-31T20:37:06Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.8.0/IGdm-2.8.0-mac.zip"
@@ -3749,7 +3749,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 60232532,
-        "download_count": 14480,
+        "download_count": 14481,
         "created_at": "2019-10-31T20:06:12Z",
         "updated_at": "2019-10-31T20:40:09Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.8.0/IGdm-2.8.0.dmg"
@@ -3817,7 +3817,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 57271074,
-        "download_count": 63,
+        "download_count": 64,
         "created_at": "2019-10-31T20:06:14Z",
         "updated_at": "2019-10-31T20:44:04Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.8.0/IGdm-2.8.0.zip"
@@ -4129,7 +4129,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76273477,
-        "download_count": 2938507,
+        "download_count": 2938510,
         "created_at": "2019-09-11T18:54:19Z",
         "updated_at": "2019-09-11T19:42:38Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.7.1/IGdm-Setup-2.7.1.exe"
@@ -4163,7 +4163,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 79974,
-        "download_count": 3595812,
+        "download_count": 3595839,
         "created_at": "2019-09-11T19:05:34Z",
         "updated_at": "2019-09-11T19:42:38Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.7.1/IGdm-Setup-2.7.1.exe.blockmap"
@@ -4265,7 +4265,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 60314819,
-        "download_count": 117,
+        "download_count": 118,
         "created_at": "2019-09-11T19:05:37Z",
         "updated_at": "2019-09-11T19:17:34Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.7.1/IGdm-2.7.1-ia32.zip"
@@ -4679,7 +4679,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 76121261,
-        "download_count": 360,
+        "download_count": 361,
         "created_at": "2019-08-21T11:06:57Z",
         "updated_at": "2019-08-21T11:13:49Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.7.0/IGdm.2.7.0.exe"
@@ -5467,7 +5467,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 74602,
-        "download_count": 7436817,
+        "download_count": 7436872,
         "created_at": "2019-04-27T22:14:11Z",
         "updated_at": "2019-04-27T22:14:16Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.5/IGdm-Setup-2.6.5.exe.blockmap"
@@ -5501,7 +5501,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 71657422,
-        "download_count": 4363431,
+        "download_count": 4363432,
         "created_at": "2019-04-27T22:14:11Z",
         "updated_at": "2019-04-27T22:27:03Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.5/IGdm-Setup-2.6.5.exe"
@@ -5569,7 +5569,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 42178772,
-        "download_count": 199,
+        "download_count": 200,
         "created_at": "2019-04-27T22:14:43Z",
         "updated_at": "2019-04-27T22:25:39Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.5/IGdm_2.6.5_i386.deb"
@@ -6051,7 +6051,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 74383,
-        "download_count": 1419665,
+        "download_count": 1419671,
         "created_at": "2019-04-07T02:09:51Z",
         "updated_at": "2019-04-07T02:09:52Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.4/IGdm-Setup-2.6.4.exe.blockmap"
@@ -6635,7 +6635,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 71652112,
-        "download_count": 337900,
+        "download_count": 337901,
         "created_at": "2019-04-02T19:43:51Z",
         "updated_at": "2019-04-02T19:50:37Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.3/IGdm-Setup-2.6.3.exe"
@@ -6669,7 +6669,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 74778,
-        "download_count": 804617,
+        "download_count": 804621,
         "created_at": "2019-04-02T19:43:51Z",
         "updated_at": "2019-04-02T19:43:53Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.3/IGdm-Setup-2.6.3.exe.blockmap"
@@ -7117,7 +7117,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 53091469,
-        "download_count": 551,
+        "download_count": 552,
         "created_at": "2019-02-24T17:41:48Z",
         "updated_at": "2019-02-24T17:46:12Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.2/IGdm-2.6.2.zip"
@@ -7151,7 +7151,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 56134071,
-        "download_count": 94,
+        "download_count": 95,
         "created_at": "2019-02-24T17:42:16Z",
         "updated_at": "2019-02-24T17:44:26Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.2/IGdm-2.6.2-ia32.zip"
@@ -7219,7 +7219,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 73895,
-        "download_count": 1276152,
+        "download_count": 1276156,
         "created_at": "2019-02-24T17:43:43Z",
         "updated_at": "2019-02-24T17:43:44Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.2/IGdm-Setup-2.6.2.exe.blockmap"
@@ -7701,7 +7701,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 53091802,
-        "download_count": 752,
+        "download_count": 753,
         "created_at": "2018-12-27T06:29:26Z",
         "updated_at": "2018-12-27T06:41:07Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.1/IGdm-2.6.1.zip"
@@ -7803,7 +7803,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 74346,
-        "download_count": 1132310,
+        "download_count": 1132322,
         "created_at": "2018-12-27T06:32:31Z",
         "updated_at": "2018-12-27T06:32:34Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.1/IGdm-Setup-2.6.1.exe.blockmap"
@@ -8319,7 +8319,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 52875749,
-        "download_count": 59,
+        "download_count": 60,
         "created_at": "2018-12-22T10:04:01Z",
         "updated_at": "2018-12-22T10:07:44Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.6.0/IGdm-2.6.0.zip"
@@ -9039,7 +9039,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 70728582,
-        "download_count": 2578650,
+        "download_count": 2578654,
         "created_at": "2018-09-30T12:36:21Z",
         "updated_at": "2018-09-30T12:38:48Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.5.4/IGdm-Setup-2.5.4.exe"
@@ -9555,7 +9555,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 52875253,
-        "download_count": 80,
+        "download_count": 81,
         "created_at": "2018-09-20T01:54:40Z",
         "updated_at": "2018-09-20T01:55:13Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.5.3/IGdm-2.5.3.zip"
@@ -9691,7 +9691,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 70740112,
-        "download_count": 488548,
+        "download_count": 488550,
         "created_at": "2018-09-20T01:56:09Z",
         "updated_at": "2018-09-20T01:57:24Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.5.3/IGdm-Setup-2.5.3.exe"
@@ -10241,7 +10241,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 70737061,
-        "download_count": 198225,
+        "download_count": 198226,
         "created_at": "2018-09-08T23:05:22Z",
         "updated_at": "2018-09-09T07:40:56Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.5.2/IGdm-Setup-2.5.2.exe"
@@ -10621,7 +10621,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 70724527,
-        "download_count": 2081077,
+        "download_count": 2081089,
         "created_at": "2018-06-11T22:50:50Z",
         "updated_at": "2018-06-11T22:56:32Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.5.1/IGdm-Setup-2.5.1.exe"
@@ -10689,7 +10689,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 53712294,
-        "download_count": 27190,
+        "download_count": 27191,
         "created_at": "2018-06-11T22:50:52Z",
         "updated_at": "2018-06-11T22:56:07Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.5.1/IGdm-2.5.1-mac.zip"
@@ -11103,7 +11103,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 55758163,
-        "download_count": 240,
+        "download_count": 241,
         "created_at": "2018-06-04T00:15:35Z",
         "updated_at": "2018-06-04T00:16:02Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.5.0/IGdm-2.5.0-x86_64.AppImage"
@@ -11273,7 +11273,7 @@
         "content_type": "application/zip",
         "state": "uploaded",
         "size": 55772044,
-        "download_count": 39,
+        "download_count": 40,
         "created_at": "2018-06-04T00:18:12Z",
         "updated_at": "2018-06-04T00:18:28Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.5.0/IGdm-2.5.0-ia32.zip"
@@ -11477,7 +11477,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 55674957,
-        "download_count": 322,
+        "download_count": 323,
         "created_at": "2018-06-04T00:22:43Z",
         "updated_at": "2018-06-04T00:23:35Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.5.0/IGdm-2.5.0.dmg"
@@ -13303,7 +13303,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 54611894,
-        "download_count": 53663,
+        "download_count": 53664,
         "created_at": "2018-03-24T12:15:03Z",
         "updated_at": "2018-03-24T12:27:50Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.4.0/IGdm-2.4.0.dmg"
@@ -13575,7 +13575,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 72418074,
-        "download_count": 507,
+        "download_count": 508,
         "created_at": "2018-03-24T13:15:45Z",
         "updated_at": "2018-03-24T14:24:16Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.4.0/IGdm-2.4.0.exe"
@@ -13643,7 +13643,7 @@
         "content_type": "application/octet-stream",
         "state": "uploaded",
         "size": 72557875,
-        "download_count": 538696,
+        "download_count": 538697,
         "created_at": "2018-03-24T13:15:58Z",
         "updated_at": "2018-03-24T14:28:56Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.4.0/IGdm-Setup-2.4.0.exe"
@@ -14715,7 +14715,7 @@
         "content_type": "application/x-msdownload",
         "state": "uploaded",
         "size": 73112707,
-        "download_count": 35597,
+        "download_count": 35598,
         "created_at": "2017-11-28T03:13:58Z",
         "updated_at": "2017-11-28T03:21:04Z",
         "browser_download_url": "https://github.com/igdmapps/igdm/releases/download/v2.2.0/IGdm-Setup-2.2.0.exe"

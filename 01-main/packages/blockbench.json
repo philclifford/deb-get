@@ -62,7 +62,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 99810406,
-      "download_count": 30,
+      "download_count": 174,
       "created_at": "2023-02-04T20:40:24Z",
       "updated_at": "2023-02-04T20:40:28Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/Blockbench_4.6.4.AppImage"
@@ -96,7 +96,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 70605534,
-      "download_count": 111,
+      "download_count": 814,
       "created_at": "2023-02-04T20:41:58Z",
       "updated_at": "2023-02-04T20:42:01Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/Blockbench_4.6.4.deb"
@@ -130,7 +130,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 152591400,
-      "download_count": 5282,
+      "download_count": 32917,
       "created_at": "2023-02-04T20:43:48Z",
       "updated_at": "2023-02-04T20:43:52Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/Blockbench_4.6.4.exe"
@@ -164,7 +164,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 159266,
-      "download_count": 3957,
+      "download_count": 21831,
       "created_at": "2023-02-04T20:43:48Z",
       "updated_at": "2023-02-04T20:43:49Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/Blockbench_4.6.4.exe.blockmap"
@@ -198,7 +198,7 @@
       "content_type": "application/x-redhat-package-manager",
       "state": "uploaded",
       "size": 70377306,
-      "download_count": 11,
+      "download_count": 68,
       "created_at": "2023-02-04T20:44:19Z",
       "updated_at": "2023-02-04T20:44:21Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/Blockbench_4.6.4.rpm"
@@ -232,7 +232,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 68827640,
-      "download_count": 134,
+      "download_count": 927,
       "created_at": "2023-02-04T20:46:47Z",
       "updated_at": "2023-02-04T20:46:50Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/Blockbench_4.6.4_portable.exe"
@@ -266,7 +266,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 91877395,
-      "download_count": 18,
+      "download_count": 159,
       "created_at": "2023-02-04T20:38:40Z",
       "updated_at": "2023-02-04T20:38:44Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/Blockbench_arm64_4.6.4.dmg"
@@ -334,7 +334,7 @@
       "content_type": "application/zip",
       "state": "uploaded",
       "size": 88404296,
-      "download_count": 95,
+      "download_count": 536,
       "created_at": "2023-02-04T20:39:06Z",
       "updated_at": "2023-02-04T20:39:08Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/Blockbench_arm64_4.6.4.zip"
@@ -368,7 +368,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 93532,
-      "download_count": 1,
+      "download_count": 3,
       "created_at": "2023-02-04T20:39:06Z",
       "updated_at": "2023-02-04T20:39:06Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/Blockbench_arm64_4.6.4.zip.blockmap"
@@ -402,7 +402,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 97777993,
-      "download_count": 150,
+      "download_count": 1090,
       "created_at": "2023-02-04T20:43:29Z",
       "updated_at": "2023-02-04T20:43:33Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/Blockbench_x64_4.6.4.dmg"
@@ -470,7 +470,7 @@
       "content_type": "application/zip",
       "state": "uploaded",
       "size": 94327135,
-      "download_count": 120,
+      "download_count": 610,
       "created_at": "2023-02-04T20:44:07Z",
       "updated_at": "2023-02-04T20:44:11Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/Blockbench_x64_4.6.4.zip"
@@ -538,7 +538,7 @@
       "content_type": "text/yaml",
       "state": "uploaded",
       "size": 371,
-      "download_count": 45,
+      "download_count": 204,
       "created_at": "2023-02-04T20:44:21Z",
       "updated_at": "2023-02-04T20:44:21Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/latest-linux.yml"
@@ -572,7 +572,7 @@
       "content_type": "text/yaml",
       "state": "uploaded",
       "size": 812,
-      "download_count": 357,
+      "download_count": 3355,
       "created_at": "2023-02-04T20:44:11Z",
       "updated_at": "2023-02-04T20:44:11Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/latest-mac.yml"
@@ -606,7 +606,7 @@
       "content_type": "text/yaml",
       "state": "uploaded",
       "size": 337,
-      "download_count": 5191,
+      "download_count": 43413,
       "created_at": "2023-02-04T20:43:52Z",
       "updated_at": "2023-02-04T20:43:53Z",
       "browser_download_url": "https://github.com/JannisX11/blockbench/releases/download/v4.6.4/latest.yml"
@@ -617,11 +617,11 @@
   "body": "## Changes\r\n* Updated Minecraft Vex skin model\r\n* Improved mesh selection conversion between selection modes (#1740)\r\n* Updated plugin loading log messages\r\n* Take project name for name suggestion when exporting modded entity\r\n* Change default position of long searchable menus\r\n\r\n## Fixes\r\n* Fix issue with styling in plugin dialogs\r\n* Fixed #1746 themes do not load on web app\r\n* Fixed color in menu items on hover when using custom theme\r\n* Fixed style of search bar in menus\r\n* Fixed clipped dialog title text in keybinding and theme dialog\r\n* Prioritize menu over dialog when using confirm/cancel keys\r\n* Fixed: Cannot set empty string as settings profile value if there is a master value",
   "reactions": {
     "url": "https://api.github.com/repos/JannisX11/blockbench/releases/91362130/reactions",
-    "total_count": 2,
+    "total_count": 3,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 2,
+    "hooray": 3,
     "confused": 0,
     "heart": 0,
     "rocket": 0,
