@@ -1,0 +1,6 @@
+#https://multimc.org/#Download
+#https://files.multimc.org/downloads/multimc_1.6-1.deb
+# may depend on qt5 packages: libqt5core5a libqt5network5 libqt5gui5
+
+#  URL=$(curl -s "https://multimc.org/#Download" |grep -o "https:.*\.deb" ) #grep -o  '[[:digit:]]\+\.[[:digit:]]\+'
+#  VERSION_PUBLISHED=$(echo $URL|grep -o  '[[:digit:]]\+\.[[:digit:]]\+')
