@@ -31,6 +31,8 @@ deb-get provides a high-level commandline interface for the package management
 system to easily install and update packages published in 3rd party apt
 repositories or via direct download.
 
+( man page generated from https://github.com/wimpysworld/deb-get/blob/main/docs/deb-get.1.md using [`pandoc`](https://pandoc.org/) )
+
 # COMMANDS
 
 **update**
