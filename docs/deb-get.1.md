@@ -159,9 +159,7 @@ download, then those packages can only be updated/upgraded by using
 #### GitHub API Rate Limits
 
 `deb-get` uses the [GitHub REST API](https://docs.github.com/en/rest) for some functionality when applications are provided via  GitHub Releases
-and for unauthenticated interactions this API is  
-[rate-limited](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting) to 60 calls per hour per source (IP Address). This is vital for keeping the API responsive and available to all users, but can be inconvenient if you have a lot of GitHub releases being handled by `deb-get` (or need to update several times in a short period to test your  
-[contribution](https://github.com/wimpysworld/deb-get/blob/main/01-main/CONTRIBUTING.md)) and will result in, for example, temporary failures to be able to upgrade or install applications via  GitHub Releases.
+and for unauthenticated interactions this API is [rate-limited](https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting) to 60 calls per hour per source (IP Address). This is vital for keeping the API responsive and available to all users, but can be inconvenient if you have a lot of GitHub releases being handled by `deb-get` (or need to update several times in a short period to test your [contribution](https://github.com/wimpysworld/deb-get/blob/main/01-main/CONTRIBUTING.md)) and will result in, for example, temporary failures to be able to upgrade or install applications via  GitHub Releases.
 
 If you have a GitHub account you can authenticate your GitHub API usage to increase your rate-limit to 5000 requests per hour per authenticated user.  To do this you will need to use a [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). Once you have created a token within GitHub (or identified an appropriate existing token) you should insert it into an environment variable (`DEBGET_TOKEN`) for `deb-get` to pick up and use to authenticate to the GitHub API.
 
@@ -175,8 +173,7 @@ deb-get upgrade
 
 ## Adding Software
 
-For information on what is acceptable as suggestion for new packages and instructions on how to open a PR to add a new package to the main repository, head to  
-[01-main/CONTRIBUTING](https://github.com/wimpysworld/deb-get/blob/main/01-main/CONTRIBUTING.md).
+For information on what is acceptable as suggestion for new packages and instructions on how to open a PR to add a new package to the main repository, head to [01-main/CONTRIBUTING](https://github.com/wimpysworld/deb-get/blob/main/01-main/CONTRIBUTING.md).
 
 ### Adding external repositories
 
@@ -185,8 +182,7 @@ It is possible to also add a `deb-get`-compatible external repository, and suppl
 1. Add something which does not meet any of the general guidelines of the main repository; or
 2. Change the definition of a package from the main repository.
 
-For information on how to create and maintain a `deb-get`-compatible external repository, head to  
-[EXTREPO](https://github.com/wimpysworld/deb-get/blob/main/EXTREPO.md).
+For information on how to create and maintain a `deb-get`-compatible external repository, head to [EXTREPO](https://github.com/wimpysworld/deb-get/blob/main/EXTREPO.md).
 
 How to use:
 
@@ -209,8 +205,7 @@ How to use:
 * Manually create the folder `/etc/deb-get/99-local.d/` if it does not exist already. By default, `deb-get` does not create this folder unless your specific distribution has packaged it that way.
 * Any files directly within this folder will be bash sourced e.g. `. /etc/deb-get/99-local.d/appname1`.
 * The name of the added file **must** match **exactly** the name of the package being defined.
-* For information on how to create a package definition file, head to  
-  [EXTREPO](https://github.com/wimpysworld/deb-get/blob/main/EXTREPO.md#the-package-definition-files).
+* For information on how to create a package definition file, head to [EXTREPO](https://github.com/wimpysworld/deb-get/blob/main/EXTREPO.md#the-package-definition-files).
 * Your user custom package definition files are then loaded after the package definitions from any added repository.
 * A recommendation message is printed for any new user added definitions, with a URL link to open a request.
 * Warning messages are then also printed for any conflicts detected for overriden definitions (of same name), which then take priority over existing ones.
