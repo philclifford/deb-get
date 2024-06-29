@@ -1,0 +1,5 @@
+echo https://raw.githubusercontent.com/philclifford/deb-get/extras/81-betas >/etc/deb-get/81-betas.repo
+echo  https://raw.githubusercontent.com/philclifford/deb-get/extras/82-3rdparty >/etc/deb-get/82-3rdparty.repo
+echo https://raw.githubusercontent.com/philclifford/deb-get/extras/90-contribs >/etc/deb-get/90-contribs.repo
+echo https://raw.githubusercontent.com/philclifford/deb-get/extras/91-fixes >/etc/deb-get/91-fixes.repo
+
