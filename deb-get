@@ -654,7 +654,7 @@ function init_repos() {
     if [ ! -e "${ETC_DIR}/01-main.repo" ]; then
         ${ELEVATE} tee "${ETC_DIR}/01-main.repo" <<<"${MAIN_REPO_URL}" >/dev/null
     fi
-    for subrepo in 02 03; do
+    for subrepo in 02 03 04; do
         if [ ! -e "${ETC_DIR}/${subrepo}-main.repo" ]; then
             ${ELEVATE} head -1 "${ETC_DIR}/01-main.repo" | sed "s/01/${subrepo}/" > "${ETC_DIR}/${subrepo}-main.repo"
         fi
