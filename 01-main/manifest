@@ -100,7 +100,7 @@ mqttx
 ms-365-electron
 multimc
 nala
-nala-legacy
+#nala-legacy
 nekoray
 neo4j
 nodejs
