@@ -1,0 +1,10 @@
+DEFVER=1
+ICECAT="https://icecatbrowser.org"
+get_website "${ICECAT}/all_downloads.html"
+if [ "${ACTION}" != "prettylist" ]; then
+    URL=${ICECAT}$(grep -o -m 1 '/assets/icecat/.*/.*\.deb\"' ${CACHE_FILE} |tr -d '"')
+    VERSION_PUBLISHED=$( cut -d'/' -f6 <<< $URL)
+fi
+PRETTY_NAME="IceCat"
+WEBSITE="${ICECAT}"
+SUMMARY="Unofficial builds of GNU Icecat (https://www.gnu.org/software/gnuzilla/)"
