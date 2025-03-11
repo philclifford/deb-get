@@ -1,0 +1,338 @@
+bat:
+  Installed: 0.25.0
+  Candidate: 0.25.0
+  Version table:
+ *** 0.25.0 100
+        100 /var/lib/dpkg/status
+     0.19.0-1ubuntu0.1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages
+     0.19.0-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+caddy:
+  Installed: 2.8.4
+  Candidate: 2.8.4
+  Version table:
+ *** 2.8.4 100
+        100 /var/lib/dpkg/status
+copyq:
+  Installed: (none)
+  Candidate: 6.0.1-1
+  Version table:
+     6.0.1-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+doublecmd-gtk:
+  Installed: (none)
+  Candidate: 1.1.22-0+svn662~testing
+  Version table:
+     1.1.22-0+svn662~testing 500
+        500 https://download.opensuse.org/repositories/home:/Alexx2000/xUbuntu_22.04  Packages
+     1.0.5-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+doublecmd-qt:
+  Installed: (none)
+  Candidate: 1.1.22-0+svn662~testing
+  Version table:
+     1.1.22-0+svn662~testing 500
+        500 https://download.opensuse.org/repositories/home:/Alexx2000/xUbuntu_22.04  Packages
+     1.0.5-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+duf:
+  Installed: 0.8.1
+  Candidate: 0.8.1
+  Version table:
+ *** 0.8.1 500
+        500 http://packages.azlux.fr/debian stable/main amd64 Packages
+        100 /var/lib/dpkg/status
+     0.6.2-1ubuntu0.1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages
+     0.6.2-1build1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+dustracing2d:
+  Installed: (none)
+  Candidate: 2.1.1-1
+  Version table:
+     2.1.1-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+fail2ban:
+  Installed: (none)
+  Candidate: 0.11.2-6
+  Version table:
+     0.11.2-6 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe i386 Packages
+flameshot:
+  Installed: 12.1.0-1
+  Candidate: 12.1.0-1
+  Version table:
+ *** 12.1.0-1 100
+        100 /var/lib/dpkg/status
+     11.0.0-2 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+foliate:
+  Installed: 2.6.4-1~ubuntu22.04.1
+  Candidate: 2.6.4-1~ubuntu22.04.1
+  Version table:
+ *** 2.6.4-1~ubuntu22.04.1 500
+        500 https://ppa.launchpadcontent.net/apandada1/foliate/ubuntu jammy/main amd64 Packages
+        500 https://ppa.launchpadcontent.net/apandada1/foliate/ubuntu jammy/main i386 Packages
+        100 /var/lib/dpkg/status
+gh:
+  Installed: 2.68.1
+  Candidate: 2.68.1
+  Version table:
+ *** 2.68.1 100
+        100 /var/lib/dpkg/status
+     2.4.0+dfsg1-2 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+hugo:
+  Installed: 0.145.0
+  Candidate: 0.145.0
+  Version table:
+ *** 0.145.0 100
+        100 /var/lib/dpkg/status
+     0.92.2-1ubuntu0.1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages
+     0.92.2-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+hyperfine:
+  Installed: (none)
+  Candidate: 1.12.0-3ubuntu0.1
+  Version table:
+     1.12.0-3ubuntu0.1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages
+     1.12.0-3 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+i3:
+  Installed: (none)
+  Candidate: 4.20.1-1
+  Version table:
+     4.20.1-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+inkscape:
+  Installed: 1:1.4+202410161351+e7c3feb100~ubuntu22.04.1
+  Candidate: 1:1.4+202410161351+e7c3feb100~ubuntu22.04.1
+  Version table:
+ *** 1:1.4+202410161351+e7c3feb100~ubuntu22.04.1 500
+        500 https://ppa.launchpadcontent.net/inkscape.dev/stable/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status
+     1.1.2-3ubuntu1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+jc:
+  Installed: 1.25.4-1
+  Candidate: 1.25.4-1
+  Version table:
+ *** 1.25.4-1 100
+        100 /var/lib/dpkg/status
+     1.17.3-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe i386 Packages
+keepassxc:
+  Installed: (none)
+  Candidate: 2.6.6+dfsg.1-1
+  Version table:
+     2.6.6+dfsg.1-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+ksnip:
+  Installed: (none)
+  Candidate: 1.9.2-1
+  Version table:
+     1.9.2-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+lsd:
+  Installed: 1.1.5
+  Candidate: 1.1.5
+  Version table:
+ *** 1.1.5 100
+        100 /var/lib/dpkg/status
+lutris:
+  Installed: (none)
+  Candidate: 0.5.9.1-1
+  Version table:
+     0.5.9.1-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/multiverse i386 Packages
+manuskript:
+  Installed: 0.16.1-1
+  Candidate: 0.16.1-1
+  Version table:
+ *** 0.16.1-1 100
+        100 /var/lib/dpkg/status
+     0.12.0-1ubuntu0.22.04.2 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-updates/universe i386 Packages
+     0.12.0-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe i386 Packages
+mediathekview:
+  Installed: (none)
+  Candidate: 13.2.1-4
+  Version table:
+     13.2.1-4 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe i386 Packages
+mergerfs:
+  Installed: (none)
+  Candidate: 2.33.3-1
+  Version table:
+     2.33.3-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+micro:
+  Installed: 2.0.13
+  Candidate: 2.0.13
+  Version table:
+ *** 2.0.13 100
+        100 /var/lib/dpkg/status
+     2.0.9-1ubuntu0.22.04.3 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages
+     2.0.9-1build1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+minigalaxy:
+  Installed: (none)
+  Candidate: 1.1.0-1
+  Version table:
+     1.1.0-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe i386 Packages
+nala:
+  Installed: (none)
+  Candidate: 0.15.4
+  Version table:
+     0.15.4 990
+        100 http://deb.volian.org/volian nala/main amd64 Packages
+        100 http://deb.volian.org/volian nala/main all Packages
+        100 /var/lib/dpkg/status
+     0.15.3 990
+        100 http://deb.volian.org/volian nala/main amd64 Packages
+        100 http://deb.volian.org/volian nala/main all Packages
+     0.15.2 990
+        100 http://deb.volian.org/volian nala/main amd64 Packages
+        100 http://deb.volian.org/volian nala/main all Packages
+     0.15.1 990
+        100 http://deb.volian.org/volian nala/main amd64 Packages
+        100 http://deb.volian.org/volian nala/main all Packages
+     0.15.0 990
+        100 http://deb.volian.org/volian nala/main amd64 Packages
+        100 http://deb.volian.org/volian nala/main all Packages
+     0.11.1~bpo22.04.1 100
+        100 http://gb.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages
+        100 http://gb.archive.ubuntu.com/ubuntu jammy-backports/universe i386 Packages
+nextcloud-desktop:
+  Installed: (none)
+  Candidate: 3.4.2-1ubuntu1
+  Version table:
+     3.4.2-1ubuntu1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+obs-cli:
+  Installed: (none)
+  Candidate: 0.4.0-1ubuntu0.22.04.1
+  Version table:
+     0.4.0-1ubuntu0.22.04.1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages
+     0.4.0-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+obs-studio:
+  Installed: 30.2.3-0obsproject1~jammy
+  Candidate: 30.2.3-0obsproject1~jammy
+  Version table:
+ *** 30.2.3-0obsproject1~jammy 500
+        500 https://ppa.launchpadcontent.net/obsproject/obs-studio/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status
+     27.2.3+dfsg1-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+openrazer-meta:
+  Installed: (none)
+  Candidate: 3.2.0+dfsg-3
+  Version table:
+     3.2.0+dfsg-3 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe i386 Packages
+pandoc:
+  Installed: 3.6.3-1
+  Candidate: 3.6.3-1
+  Version table:
+ *** 3.6.3-1 100
+        100 /var/lib/dpkg/status
+     2.9.2.1-3ubuntu2 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+papirus-icon-theme:
+  Installed: 20250201-6638+pkg29~ubuntu22.04.1
+  Candidate: 20250201-6638+pkg29~ubuntu22.04.1
+  Version table:
+ *** 20250201-6638+pkg29~ubuntu22.04.1 500
+        500 https://ppa.launchpadcontent.net/papirus/papirus/ubuntu jammy/main amd64 Packages
+        500 https://ppa.launchpadcontent.net/papirus/papirus/ubuntu jammy/main i386 Packages
+        100 /var/lib/dpkg/status
+     20220204-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe i386 Packages
+rclone:
+  Installed: (none)
+  Candidate: 1.69.1
+  Version table:
+     1.69.1 500
+        500 http://packages.azlux.fr/debian stable/main amd64 Packages
+     1.53.3-4ubuntu1.22.04.3 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages
+     1.53.3-4ubuntu1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+ripgrep:
+  Installed: 14.1.0-1
+  Candidate: 14.1.0-1
+  Version table:
+ *** 14.1.0-1 100
+        100 /var/lib/dpkg/status
+     13.0.0-2ubuntu0.1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages
+     13.0.0-2 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+syncthing:
+  Installed: 1.29.2
+  Candidate: 1.29.2
+  Version table:
+ *** 1.29.2 500
+        500 https://apt.syncthing.net syncthing/stable amd64 Packages
+        100 /var/lib/dpkg/status
+     1.29.1 500
+        500 https://apt.syncthing.net syncthing/stable amd64 Packages
+     1.18.0~ds1-3ubuntu0.3+esm1 510
+        510 https://esm.ubuntu.com/apps/ubuntu jammy-apps-security/main amd64 Packages
+     1.18.0~ds1-3ubuntu0.3 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages
+     1.18.0~ds1-3 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+texworks:
+  Installed: (none)
+  Candidate: 0.6.6-2build1
+  Version table:
+     0.6.6-2build1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+weechat:
+  Installed: (none)
+  Candidate: 3.5-1
+  Version table:
+     3.5-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe i386 Packages
+yq:
+  Installed: 4.16.2
+  Candidate: 4.16.2
+  Version table:
+ *** 4.16.2 500
+        500 https://ppa.launchpadcontent.net/rmescandon/yq/ubuntu jammy/main amd64 Packages
+        100 /var/lib/dpkg/status
+yubikey-manager:
+  Installed: (none)
+  Candidate: 4.0.7-1
+  Version table:
+     4.0.7-1 500
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+        500 http://gb.archive.ubuntu.com/ubuntu jammy/universe i386 Packages
