@@ -1,4 +1,5 @@
 DEFVER=1
+CODENAMES_SUPPORTED="buster bullseye bookworm focal jammy"
 get_website "https://www.tonelib.net/downloads.html"
 TLAPP="EasyComp"
 if [ "${ACTION}" != "prettylist" ]; then
