@@ -1,11 +1,16 @@
 https://raw.githubusercontent.com/philclifford/deb-get/extras/90-contribs
+amdgpu-top
 charm
 confettysh
 discord-ptb
+ente
+enteauth
 freetube
 gum
 httptoolkit
 melt
+proton-authenticator
+proton-pass
 skate
 soft-serve
 tonelib-detuner
@@ -14,4 +19,5 @@ tonelib-easycomp
 tonelib-multicomp
 ubuntu-cleaner
 vhs
+virtualbox-7.1
 wishlist
