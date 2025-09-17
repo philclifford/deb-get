@@ -26,6 +26,9 @@ if [ "${ACTION}" != "prettylist" ]; then
     VERSION_PUBLISHED=$( cut -d/ -f3 <<<"${deb}" )
     VERSION_PUBLISHED="${VERSION_PUBLISHED/_candidate/}"
     VERSION_PUBLISHED="${VERSION_PUBLISHED#release_}"
+    if [ "$VERSION_PUBLISHED" == "1.0rc2" ]; then
+        VERSION_PUBLISHED="0.9.1646~1.0rc2"
+    fi
 fi
 PRETTY_NAME="OpenRGB"
 WEBSITE="https://openrgb.org/"
