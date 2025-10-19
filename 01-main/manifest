@@ -1,16 +1,16 @@
-https://raw.githubusercontent.com/wimpysworld/deb-get/main/01-main
+https://raw.githubusercontent.com/philclifford/deb-get/extras/01-main
 1password
 activitywatch
 agena
 alduin
 alsa-scarlett-gui
+amdgpu-top
 android-messages-desktop
 antimicrox
 anydesk
 appimagelauncher
 atom
 atomic
-#atuin
 audio-recorder
 auth
 authme
@@ -25,7 +25,7 @@ bitwarden
 bitwig-studio
 blanket
 blockbench
-#bluejeans-v2
+bluejeans-v2
 bottom
 brave-browser
 brisqi
@@ -40,7 +40,7 @@ codium
 com.github.tkashkin.gamehub
 copyq
 cosign
-# croc
+croc
 cronopete
 crossover
 crow-translate
@@ -76,7 +76,7 @@ emptyepsilon
 enpass
 eversticky
 exifcleaner
-#expressvpn
+expressvpn
 fail2ban
 fastfetch
 fd
@@ -84,6 +84,7 @@ fedistar
 ferdium
 figma-linux
 filen
+files-cli
 filezilla-theme-papirus
 firefox
 firefox-beta
@@ -93,6 +94,7 @@ firefox-nightly
 flameshot
 flowkeeper
 foliate
+fooyin
 franz
 freeshow
 frostwire
@@ -133,6 +135,7 @@ hydralauncher
 hyper
 hyperfine
 i3
+icaclient
 igdm
 imhex
 indicator-sound-switcher
@@ -150,11 +153,11 @@ ivpn-ui
 jabref
 jami
 jc
-joplin
 jellyfin
 jellyfin-media-player
 jexiftoolgui
 jitsi-meet-electron
+joplin
 jupyterlab-desktop
 kapacitor
 kdiskmark
@@ -169,8 +172,8 @@ lens
 libation
 libreoffice
 librewolf
-linux-assistant
 limoji
+linux-assistant
 localsend
 lsd
 ludo
@@ -202,7 +205,7 @@ multimc
 museeks
 musikcube
 nala
-#nala-legacy
+nala-legacy
 nekoray
 nemo-mediainfo-tab
 neo4j
@@ -213,9 +216,9 @@ nomad
 nordvpn
 notable
 novelwriter
+ntfy
 nuclear
 numbat
-ntfy
 obs-cli
 obsidian
 obs-studio
@@ -246,6 +249,8 @@ pomatez
 popcorn-time
 portmaster
 powershell
+prospect-mail
+proton-authenticator
 protonmail-bridge
 protonvpn
 publii
@@ -301,7 +306,7 @@ system-monitoring-center
 tabby-terminal
 tailscale
 tarsnap
-#teams
+teams
 teams-for-linux
 teamviewer
 teip
@@ -353,11 +358,11 @@ winehq-devel
 winehq-stable
 winehq-staging
 wire-desktop
-# wraith-master
+wraith-master
 xemu
 xpipe
 youtube-music
-#yq
+yq
 ytdownloader
 yubikey-manager
 zenith
