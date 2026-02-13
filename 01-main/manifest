@@ -4,6 +4,7 @@ activitywatch
 agena
 #alduin
 alsa-scarlett-gui
+alt-sendme
 amdgpu-top
 android-messages-desktop
 antimicrox
@@ -42,7 +43,7 @@ copyq
 cosign
 cronopete
 crossover
-crow-translate
+#crow-translate
 cryptomator
 cudatext
 cw-tail
@@ -50,7 +51,7 @@ davmail
 dbeaver-ce
 dbgate
 deadbeef-static
-deborah
+#deborah
 deemix
 deltachat-desktop
 deskcut
@@ -64,6 +65,7 @@ docker-desktop
 dorion
 doublecmd-gtk
 doublecmd-qt
+dra
 draw.io
 dropbox
 du-dust
@@ -99,11 +101,12 @@ firefox-nightly
 firefoxpwa
 flameshot
 flowkeeper
-foliate
+#foliate
 fooyin
 franz
 freeplane
 freeshow
+fresh
 frostwire
 fsearch
 g
@@ -179,6 +182,7 @@ koreader
 kse
 ksnip
 kwaterfoxhelper
+lact
 lens
 libation
 libreoffice
@@ -200,7 +204,7 @@ mdview
 media-downloader
 mediathekview
 mergerfs
-micro
+#micro
 microsoft-edge-stable
 min
 minigalaxy
@@ -264,7 +268,7 @@ plexmediaserver
 plow
 polychromatic
 pomatez
-popcorn-time
+#popcorn-time
 portmaster
 powershell
 protonmail-bridge
@@ -278,7 +282,7 @@ qownnotes
 quarto
 quickemu
 quickgui
-quickobs
+#quickobs
 rambox
 rclone
 rclone-ui
@@ -295,6 +299,7 @@ rstudio-server
 rustdesk
 schildichat-desktop
 sejda-desktop
+sendworm
 session-desktop
 shutter-encoder
 signal-desktop
@@ -379,6 +384,8 @@ vuescan
 waterfox-g-kde
 wavebox
 waydroid
+wayscriber
+wealthfolio
 webex
 weechat
 weylus
