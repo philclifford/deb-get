@@ -1,0 +1,54 @@
+# Worklist for fixing github json parsing
+- [x] activitywatch
+- [x] bottom
+- [x] deemix
+- [x] dorion
+- [x] duf
+- [x] ente
+- [x] fastfetch
+- [x] filen
+- [x] flameshot
+- [x] flowkeeper
+- [x] ganttproject
+- [x] gh
+- [x] gk
+- [x] goreleaser
+- [x] grype
+- [x] helmwave
+- [x] hugo
+- [x] ipscan
+- [x] jellyfin-media-player
+- [x] jitsi-meet-electron
+- [x] joplin
+- [x] kse
+- [x] libation
+- [x] manuskript
+- [x] mdview
+- [ ] mqttx
+- [ ] mucommander
+- [ ] museeks
+- [ ] nuclear
+- [ ] obsidian
+- [ ] pandoc
+- [ ] pet
+- [ ] pixieditor
+- [ ] quarto
+- [ ] quickgui
+- [ ] rclone
+- [ ] readest
+- [ ] r-quick-share
+- [ ] rustdesk
+- [ ] slackdump
+- [ ] sleek
+- [ ] spotube
+- [ ] stirling-pdf
+- [ ] syft
+- [ ] teams-for-linux
+- [ ] tinygo
+- [ ] tribler
+- [ ] trilium
+- [ ] ulauncher
+- [ ] wasistlos
+- [ ] xpipe
+- [ ] yazi
+- [ ] zenith
