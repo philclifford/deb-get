@@ -2,7 +2,7 @@ DEFVER=1
 ARCHS_SUPPORTED="amd64"
 get_website "https://docs.docker.com/desktop/release-notes/"
 if [ "${ACTION}" != "prettylist" ]; then
-    URL="$(grep -m 1 -o 'https:[^>]*\.deb' "${CACHE_FILE}" )"
+    URL=$(grep -m 1 -o 'https:[^>]*\.deb' "${CACHE_FILE}" )
     VERSION_PUBLISHED=$(awk 'match($0, /href=#[0-9][^>]*>([^<]*)</, a) { print a[1]; exit }' "${CACHE_FILE}")
 fi
 PRETTY_NAME="Docker Desktop"

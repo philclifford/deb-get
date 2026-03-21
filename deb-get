@@ -2,8 +2,9 @@
 LC_ALL=C
 PACKAGE_INSTALLATION_TRIES=0
 PACKAGE_INSTALLATION_COUNT=0
+unset QUIET
 
-readonly VERSION="0.4.6"
+readonly VERSION="0.4.7"
 
 # set a github auth token (e.g a PAT ) in DEBGET_TOKEN to get a bigger rate limit
 if [ -n "${DEBGET_TOKEN}" ]; then
@@ -118,7 +119,7 @@ function package_is_installed() {
 
 function elevate_privs() {
     if [ "$(id -ru)" -eq 0 ]; then
-        # Alreday in the root context
+        # Already in the root context
         ELEVATE=""
     elif command -v doas 1>/dev/null && doas true 2>/dev/null; then
         ELEVATE="doas"
@@ -146,6 +147,18 @@ function create_etc_dir() {
 function unroll_url() {
     # Sourceforge started adding parameters
     local TRIM_URL="$(curl -w "%{url_effective}" -I -L -s -S "${1}" -o /dev/null)"
+    #we will only check for the meta refresh if the initial unroll didn't accomplish anything
+    if [[ "${1%/}" == "${TRIM_URL%/}" ]]; then
+        local META_REFRESH="$(curl -s "${1}" | grep -E -i -o -m 1 "<meta.*http-equiv=[^\>]*refresh[^\>]*>" | grep -i -E "content=.*url=")"
+        if [[ -n "${META_REFRESH}" ]]; then
+            META_REFRESH="$(sed -E 's|.*url=['\''"]?([^'\''">]*).*|\1|i' <<< "${META_REFRESH}")"
+            if [[ ${META_REFRESH} =~ ^https?://.* ]]; then
+                TRIM_URL="${META_REFRESH}"
+            else
+                TRIM_URL="$(sed -E 's|(https?://[^/]*).*|\1|' <<< ${1})/${META_REFRESH#\/}"
+            fi
+        fi
+    fi
     printf '%s' "${TRIM_URL/\.deb*/.deb}"
 }
 
@@ -164,19 +177,20 @@ function get_github_releases() {
     #   curl -I https://api.github.com/users/flexiondotorg
 
     # Do not process github releases while generating a pretty list or upgrading
-    if [[ ' install update fix-installed ' =~ " ${ACTION} " ]]; then
+    if [[ ' install fix-installed ' =~ " ${ACTION} " ]] || { [[ ' update ' =~ " ${ACTION} " ]] && package_is_installed "${APP}"; }; then
         if [ ! -e "${CACHE_FILE}" ] || [ -n "$(find "${CACHE_FILE}" -mmin +"${DEBGET_CACHE_RTN:-60}")" ]; then
-            fancy_message info "Updating ${CACHE_FILE}"
+            if [ -z ${QUIET} ]; then
+                fancy_message info "Updating ${CACHE_FILE}"
+            fi
             local URL="https://api.github.com/repos/${1}/releases${2:+/$2}"
             wgetcmdarray=(wget  "${HEADERPARAM}" "${HEADERAUTH}" -q --no-use-server-timestamps "${URL}" -O- )
-            "${wgetcmdarray[@]}" | ${ELEVATE} tee "${CACHE_FILE}" > /dev/null || ( fancy_message warn "Updating ${CACHE_FILE} failed." )
+            "${wgetcmdarray[@]}" | jq . | ${ELEVATE} tee "${CACHE_FILE}" > /dev/null || ( fancy_message warn "Updating ${CACHE_FILE} failed." )
             if [ -f "${CACHE_FILE}" ] && grep "API rate limit exceeded" "${CACHE_FILE}"; then
                 fancy_message warn "Updating ${CACHE_FILE} exceeded GitHub API limits. Deleting it."
                 ${ELEVATE} rm "${CACHE_FILE}" 2>/dev/null
             fi
-            if [ ! ${APP} == "azuredatastudio" ]; then
-                # because MS have to be different
-                ${ELEVATE} sed -i '/browser_download/!d;/\.deb/!d' ${CACHE_FILE}
+            if [[ " $* " != *' --no-filter '* ]]; then
+                ${ELEVATE} sed -i "/browser_download/!d;/\.deb/!d" ${CACHE_FILE}
             fi
         fi
     fi
@@ -193,9 +207,11 @@ function get_gitlab_releases() {
     # So for gitlab sourced apps that use this release model users can use 99-local to pin a version
     #
 
-    if [[ ' install update fix-installed ' =~ " ${ACTION} " ]]; then
+    if [[ ' install fix-installed ' =~ " ${ACTION} " ]] || { [[ ' update ' =~ " ${ACTION} " ]] && package_is_installed "${APP}"; }; then
         if [ ! -e "${CACHE_FILE}" ] || [ -n "$(find "${CACHE_FILE}" -mmin +"${DEBGET_CACHE_RTN:-60}")" ]; then
-            fancy_message info "Updating ${CACHE_FILE}"
+            if [ -z ${QUIET} ]; then
+                fancy_message info "Updating ${CACHE_FILE}"
+            fi
             RELEASE=${2/%latest/permalink/latest}
             if [[ ${1} =~ ^https?://.* ]]; then
                 local GITLAB_HOST="$(sed -E 's|(https?://[^/]*).*|\1|' <<< ${1})"
@@ -220,9 +236,11 @@ function get_gitlab_releases() {
 function get_website() {
     METHOD="website"
     CACHE_FILE="${CACHE_DIR}/${APP}.html"
-    if [[ ' install update fix-installed ' =~ " ${ACTION} " ]]; then
+    if [[ ' install fix-installed ' =~ " ${ACTION} " ]] || { [[ ' update ' =~ " ${ACTION} " ]] && package_is_installed "${APP}"; }; then
         if [ ! -e "${CACHE_FILE}" ] || [ -n "$(find "${CACHE_FILE}" -mmin +"${DEBGET_CACHE_RTN:-60}")" ]; then
-            fancy_message info "Updating ${CACHE_FILE}"
+            if [ -z ${QUIET} ]; then
+                fancy_message info "Updating ${CACHE_FILE}"
+            fi
             # shellcheck disable=SC2086
             if ! ${ELEVATE} wget ${WGET_VERBOSITY} --no-use-server-timestamps ${WGET_TIMEOUT} "$@" -O "${CACHE_FILE}"; then
                 fancy_message warn "Updating ${CACHE_FILE} failed. Deleting it."
@@ -264,6 +282,11 @@ function download_deb() {
         ${ELEVATE} rm "${CACHE_DIR}/${FILE}" 2>/dev/null
         return 1
     fi
+
+    if declare -F post_download >/dev/null; then
+        post_download
+        return $?
+    fi
 }
 
 function eula() {
@@ -280,11 +303,15 @@ function eula() {
 }
 
 function update_apt() {
-    ${ELEVATE} apt-get -q -o Dpkg::Progress-Fancy="1" -y update
+  if ! [ "$DISABLE_APT" == "y" ]; then
+    ${ELEVATE} apt-get -q${QUIET} -o Dpkg::Progress-Fancy="1" -y update
+  fi
 }
 
 function upgrade_apt() {
+  if ! [ "$DISABLE_APT" == "y" ]; then
     ${ELEVATE} apt-get -q -o Dpkg::Progress-Fancy="1" -y upgrade
+  fi
 }
 
 function upgrade_only_dg() {
@@ -448,6 +475,7 @@ function validate_deb() {
     export PRETTY_NAME="" SUMMARY="" WEBSITE=""
     export URL=""
     export CACHE_FILE="" FILE=""
+    unset -f post_download 2>/dev/null
 
     # Source the variables
     if [ "${APP_SRC}" == "00-builtin" ]; then
@@ -455,7 +483,7 @@ function validate_deb() {
     else
         . "${ETC_DIR}/${APP_SRC}.d/${APP}" 2>/dev/null
     fi
-    if [[ " ${ARCHS_SUPPORTED} " =~ " ${HOST_ARCH} " ]] && { [ -z "${CODENAMES_SUPPORTED}" ] || [[ " ${CODENAMES_SUPPORTED} " =~ " ${UPSTREAM_CODENAME} " ]]; } && { [ "${METHOD}" != ppa ] || [ "${UPSTREAM_ID}" == ubuntu ]; }; then
+    if [[ " ${ARCHS_SUPPORTED} " =~ (" ${HOST_ARCH} " | " all ") ]] && { [ -z "${CODENAMES_SUPPORTED}" ] || [[ " ${CODENAMES_SUPPORTED} " =~ " ${UPSTREAM_CODENAME} " ]]; } && { [ "${METHOD}" != ppa ] || [ "${UPSTREAM_ID}" == ubuntu ]; }; then
 
         if [ -z "${DEFVER}" ] || [ -z "${PRETTY_NAME}" ] || [ -z "${SUMMARY}" ] || [ -z "${WEBSITE}" ]; then
             fancy_message error "Missing required information of package ${APP}:"
@@ -522,7 +550,7 @@ function validate_deb() {
         if { { [[ ' github website gitlab ' =~ " ${METHOD} " ]] && [ -s "${CACHE_FILE}" ]; } || [ "${METHOD}" == direct ]; } &&
            ! [[ ' prettylist remove purge ' =~ " ${ACTION} " ]] &&
            { [ -z "${URL}" ] || [ -z "${VERSION_PUBLISHED}" ]; } &&
-           { [ -z "${ARCHS_SUPPORTED}" ] || [[ " ${ARCHS_SUPPORTED} " =~ " ${HOST_ARCH} " ]]; } &&
+           { [ -z "${ARCHS_SUPPORTED}" ] || [[ " ${ARCHS_SUPPORTED} " =~ (" ${HOST_ARCH} " | " all ") ]]; } &&
            { [ -z "${CODENAMES_SUPPORTED}" ] || [[ " ${CODENAMES_SUPPORTED} " =~ " ${UPSTREAM_CODENAME} " ]]; }; then
             fancy_message error "Missing required information of ${METHOD} package ${APP}:"
             printf >&2 '%s\n' "URL=${URL}" "VERSION_PUBLISHED=${VERSION_PUBLISHED}"
@@ -581,7 +609,7 @@ function list_debs() {
             # because we need to update the cache files this one slow time
             for FULL_APP in "${APPS[@]}"; do
                 if validate_deb "${FULL_APP}"; then
-                    if [[ " ${ARCHS_SUPPORTED} " =~ " ${HOST_ARCH} " ]] && { [ -z "${CODENAMES_SUPPORTED}" ] || [[ " ${CODENAMES_SUPPORTED} " =~ " ${UPSTREAM_CODENAME} " ]]; } && { [ "${METHOD}" != ppa ] || [ "${UPSTREAM_ID}" == ubuntu ]; }; then
+                    if [[ " ${ARCHS_SUPPORTED} " =~ (" ${HOST_ARCH} " | " all ") ]] && { [ -z "${CODENAMES_SUPPORTED}" ] || [[ " ${CODENAMES_SUPPORTED} " =~ " ${UPSTREAM_CODENAME} " ]]; } && { [ "${METHOD}" != ppa ] || [ "${UPSTREAM_ID}" == ubuntu ]; }; then
                         case "${2}" in
                         (--raw)
                             printf '%s\n' "${APP}"
@@ -710,7 +738,9 @@ function refresh_supported_cache_lists() {
     trap "trap - EXIT; ${ELEVATE} rm -f \"$lockfile\"" EXIT
     ${ELEVATE} touch "$lockfile"
     ${ELEVATE} rm -f "${CACHE_DIR}/supported.list" "${CACHE_DIR}/supported_apps.list"
-    fancy_message info "Updating cache of supported apps in the background"
+    if [ -z ${QUIET} ]; then
+        fancy_message info "Updating cache of supported apps in the background"
+    fi
     list_debs | grep -v -e '^[[:space:]][[:space:]]*\[' | ${ELEVATE} tee "${CACHE_DIR}/supported.list.tmp" >/dev/null
     ${ELEVATE} mv "${CACHE_DIR}/supported.list.tmp" "${CACHE_DIR}/supported.list"
     # # belt and braces no longer needed
@@ -730,7 +760,9 @@ function update_repos() {
 
     for REPO in $(find "${ETC_DIR}" -maxdepth 1 -name "*.repo" ! -name 00-builtin.repo ! -name 99-local.repo -type f -printf "%f\n" | sed "s/.repo$//"); do
         # export REPO ETC_DIR ELEVATE  # no longer needed, `| bash -` replaced with `eval`
-        fancy_message info "Updating ${ETC_DIR}/${REPO}"
+        if [ -z ${QUIET} ]; then
+            fancy_message info "Updating ${ETC_DIR}/${REPO}"
+        fi
         REPO_URL="$(head -n 1 "${ETC_DIR}/${REPO}.repo")"
         # shellcheck disable=SC2086
         ${ELEVATE} wget ${WGET_VERBOSITY} ${WGET_TIMEOUT} "${REPO_URL}/manifest" -O "${ETC_DIR}/${REPO}.repo.tmp" && ${ELEVATE} mv "${ETC_DIR}/${REPO}.repo.tmp" "${ETC_DIR}/${REPO}.repo"
@@ -1382,11 +1414,19 @@ if ! [[ ' ubuntu debian ' =~ " ${UPSTREAM_ID} " ]]; then
     fi
 fi
 
-# Debian Sid doesn't have it's own unique os-release file. It is the same as Debian stable.
-# So we first check /etc/debian_version to see if we're running sid. If not, we will trust what os-release says.
-if [[ "${UPSTREAM_ID}" == "debian" ]] && grep -q "sid" /etc/debian_version; then
-    UPSTREAM_CODENAME="sid"
-    OS_CODENAME="sid"
+# Debian Sid & Testing don't always have their own unique os-release file. It is often the same as the previous Debian stable.
+# So we first check /etc/debian_version to make sure we're not running Stable.
+# If not, we will then use apt-cache policy to distinguish between Debian Sid and Debian Testing.
+local ETC_DEB_VER="$(< /etc/debian_version)"
+if [[ "${UPSTREAM_ID}" == "debian" ]] && grep -q "sid" <<< "${ETC_DEB_VER}"; then
+    if apt-cache policy | grep -q -i -e "o=debian.*n=${ETC_DEB_VER%%/*}" -e "o=debian.*n=testing"; then
+        UPSTREAM_CODENAME="${ETC_DEB_VER%%/*}"
+        OS_CODENAME="${UPSTREAM_CODENAME}"
+        DEBIAN_TESTING="${UPSTREAM_CODENAME}"
+    else
+        UPSTREAM_CODENAME="sid"
+        OS_CODENAME="sid"
+    fi
 else
     local codename
     for codename in UBUNTU_CODENAME DEBIAN_CODENAME VERSION_CODENAME; do
@@ -1396,32 +1436,18 @@ else
 fi
 
 case "${UPSTREAM_CODENAME}" in
-    buster)   UPSTREAM_RELEASE="10";;
-    bullseye) UPSTREAM_RELEASE="11";;
-    bookworm) UPSTREAM_RELEASE="12";;
-    trixie)   UPSTREAM_RELEASE="13";;
-    forky)    UPSTREAM_RELEASE="14";;
-    sid)      UPSTREAM_RELEASE="unstable";;
-    focal)    UPSTREAM_RELEASE="20.04";;
-    jammy)    UPSTREAM_RELEASE="22.04";;
-    noble)    UPSTREAM_RELEASE="24.04";;
-    oracular) UPSTREAM_RELEASE="24.10";;
-    plucky)   UPSTREAM_RELEASE="25.04";;
-    questing) UPSTREAM_RELEASE="25.10";;
-
-    *)  #Devuan
-        if [[ "${UPSTREAM_ID}" == "debian" ]]; then
+    sid) UPSTREAM_RELEASE="unstable";;
+      *) UPSTREAM_RELEASE="$(grep -m1 -o -P "^[^,\s]+(?=\s*[A-Z]*,[^,]+,${UPSTREAM_CODENAME},)" "${DISTRO_INFO_DIR}/${UPSTREAM_ID}.csv")"
+        #Devuan
+        if [ -z ${UPSTREAM_RELEASE} ] && [[ "${UPSTREAM_ID}" == "debian" ]]; then
             UPSTREAM_RELEASE="$(grep -E -o -m 1 "^[0-9]+" "/etc/debian_version")"
+            UPSTREAM_CODENAME="$(grep -m1 -o -P "^${UPSTREAM_RELEASE},[^,]+,\K[a-z]+(?=,)" "${DISTRO_INFO_DIR}/${UPSTREAM_ID}.csv")"
         fi
-        case "${UPSTREAM_RELEASE}" in
-            10) UPSTREAM_CODENAME="buster";;
-            11) UPSTREAM_CODENAME="bullseye";;
-            12) UPSTREAM_CODENAME="bookworm";;
-            13) UPSTREAM_CODENAME="trixie";;
-            14) UPSTREAM_CODENAME="forky";;
-             *) fancy_message fatal "${OS_ID_PRETTY} ${OS_CODENAME^} is not supported because it is not derived from a supported Debian or Ubuntu release.";;
-        esac
+        ;;
 esac
+if [ -z ${UPSTREAM_CODENAME} ] || [ -z ${UPSTREAM_RELEASE} ]; then
+    fancy_message fatal "${OS_ID_PRETTY} ${OS_CODENAME^} is not supported because it is not derived from a supported Debian or Ubuntu release."
+fi
 }
 
 function dg_action_cache() {
@@ -1463,7 +1489,7 @@ function dg_action_install() {
                 exit 1
             fi
             if validate_deb "${FULL_APP}"; then
-                if [[ " ${ARCHS_SUPPORTED} " != *" ${HOST_ARCH} "* ]]; then
+                if [[ " ${ARCHS_SUPPORTED} " != *" ${HOST_ARCH} "* && " ${ARCHS_SUPPORTED} " != *" all "* ]]; then
                     fancy_message fatal "${APP} is not supported on ${HOST_ARCH}."
                 fi
 
@@ -1574,6 +1600,9 @@ function dg_action_update() {
         if [ -n "${3}" ] ; then
                     fancy_message error "Ignoring extra options from : ${3}"
         fi
+        if [[ " $* " == *' --quiet '* ]] ; then
+            QUIET="q"
+        fi
         elevate_privs
         create_cache_dir
         create_etc_dir
@@ -1639,6 +1668,7 @@ fi
 export CACHE_DIR="/var/cache/deb-get"
 readonly ETC_DIR="/etc/deb-get"
 readonly MAIN_REPO_URL="https://raw.githubusercontent.com/wimpysworld/deb-get/main/01-main"
+readonly DISTRO_INFO_DIR="/usr/share/distro-info"
 
 readonly USER_AGENT="Mozilla/5.0 (X11; Linux ${HOST_CPU}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
 readonly USER_HOME="${HOME}"
