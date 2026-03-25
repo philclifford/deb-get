@@ -1,6 +1,6 @@
 DEFVER=2
 ARCHS_SUPPORTED="amd64 arm64 armhf"
-CODENAMES_SUPPORTED="trixie forky sid jammy noble plucky questing"
+CODENAMES_SUPPORTED="trixie forky sid jammy noble plucky questing resolute"
 case "${UPSTREAM_ID}" in
     ubuntu)
         PPA="ppa:ztefn/haguichi-stable" ;;

@@ -1,6 +1,6 @@
 DEFVER=1
 ARCHS_SUPPORTED="amd64 armhf" 
-CODENAMES_SUPPORTED="buster bullseye bookworm trixie forky jammy noble plucky questing"
+CODENAMES_SUPPORTED="buster bullseye bookworm trixie forky jammy noble plucky questing resolute"
 get_website "https://openrgb.org/releases.html"
 if [ "${ACTION}" != "prettylist" ]; then
     local codename, regex, deb

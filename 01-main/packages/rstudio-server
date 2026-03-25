@@ -1,5 +1,5 @@
 DEFVER=1
-CODENAMES_SUPPORTED="bookworm trixie sid forky jammy noble plucky questing"
+CODENAMES_SUPPORTED="bookworm trixie sid forky jammy noble plucky questing resolute"
 get_website "https://posit.co/wp-content/uploads/downloads.json"
 local RELEASE
 local CODENAME

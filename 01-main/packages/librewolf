@@ -1,5 +1,5 @@
 DEFVER=2
-CODENAMES_SUPPORTED="bullseye bookworm trixie jammy noble plucky questing"
+CODENAMES_SUPPORTED="bullseye bookworm trixie jammy noble plucky questing resolute"
 ARCHS_SUPPORTED="amd64 arm64"
 GPG_KEY_URL="https://repo.librewolf.net/keyring.gpg"
 APT_REPO_URL="https://repo.librewolf.net librewolf main"

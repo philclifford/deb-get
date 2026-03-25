@@ -1,6 +1,6 @@
 DEFVER=1
 ARCHS_SUPPORTED="amd64 arm64 armv7 armhf"
-# CODENAMES_SUPPORTED="bookworm trixie forky sid noble plucky questing"
+# CODENAMES_SUPPORTED="bookworm trixie forky sid noble plucky questing resolute"
 get_github_releases "duplicati/duplicati" "latest"
 
 

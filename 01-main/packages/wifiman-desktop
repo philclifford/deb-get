@@ -1,6 +1,6 @@
 DEFVER=1
 ARCHS_SUPPORTED="amd64"
-CODENAMES_SUPPORTED="bookworm trixie forky sid jammy noble plucky questing"
+CODENAMES_SUPPORTED="bookworm trixie forky sid jammy noble plucky questing resolute"
 MINIMUM_DEB_GET_VERSION="0.4.7"
 # required for post_download
 if ! dpkg --compare-versions "${VERSION}" ge "${MINIMUM_DEB_GET_VERSION}"; then

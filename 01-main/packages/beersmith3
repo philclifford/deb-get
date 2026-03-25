@@ -1,5 +1,5 @@
 DEFVER=1
-CODENAMES_SUPPORTED="bionic jammy mantic noble plucky questing"
+CODENAMES_SUPPORTED="bionic jammy mantic noble plucky questing resolute"
 get_website "https://beersmith.com/download-beersmith/"
 if [ "${ACTION}" != "prettylist" ]; then
     DL=$(grep -o -E '\"https://beer.*\.deb\"' "$CACHE_FILE" | sed 's/<br>/\n/g')
