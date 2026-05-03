@@ -1,0 +1,17 @@
+DEFVER=2
+ARCHS_SUPPORTED="amd64 arm64 armhf"
+case ${HOST_ARCH} in
+    amd64) CODENAMES_SUPPORTED="bullseye bookworm trixie jammy noble plucky raring" ;;
+    arm64) CODENAMES_SUPPORTED="bullseye bookworm trixie jammy noble" ;;
+    armhf) CODENAMES_SUPPORTED="bullseye bookworm trixie focal" ;;
+esac
+get_website "https://www.veracrypt.fr/en/Downloads.html"
+if [ "${ACTION}" != "prettylist" ]; then
+    VERSION_PUBLISHED=$(sed -En 's|.*Latest\s+Stable\s+Release\s*-?\s*(\S+).*|\1|p' "${CACHE_FILE}")
+    # launchpad.net is under sustained DDoS attack, so we switch to github releases for now. We can switch back to launchpad.net once the attack is over.
+    # URL=$(unroll_url "https://launchpad.net/veracrypt/trunk/${VERSION_PUBLISHED}/+download/veracrypt-${VERSION_PUBLISHED}-${UPSTREAM_ID^}-${UPSTREAM_RELEASE}-${HOST_ARCH}.deb\"")
+    URL=https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_${VERSION_PUBLISHED}/veracrypt-${VERSION_PUBLISHED}-${UPSTREAM_ID^}-${UPSTREAM_RELEASE}-${HOST_ARCH}.deb
+fi
+PRETTY_NAME="Veracrypt"
+WEBSITE="https://www.veracrypt.fr/en/Downloads.html"
+SUMMARY="VeraCrypt is a free and open-source utility for on-the-fly encryption (OTFE)."
