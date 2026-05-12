@@ -10,6 +10,7 @@ android-messages-desktop
 antimicrox
 anydesk
 appimagelauncher
+aptakube
 atom
 atomic
 audio-recorder
@@ -56,6 +57,7 @@ deadbeef-static
 #deborah
 deemix
 deltachat-desktop
+deltachat-tauri
 deskcut
 deskflow
 deskreen-ce
@@ -121,6 +123,7 @@ gcm
 getnf
 gh
 #gifski
+git-butler
 git-delta
 github-desktop
 gitkraken
@@ -200,6 +203,7 @@ librewolf
 linux-assistant
 linuxtoys
 limoji
+littlesnitch
 localsend
 lsd
 ludo
@@ -233,6 +237,7 @@ musicplayerplus
 musikcube
 mypass
 nala
+naps2
 nekoray
 nemo-mediainfo-tab
 neo4j
@@ -356,6 +361,7 @@ teip
 telegraf
 television
 termius-app
+termix
 terraform
 terratactician-expandoria
 texworks
@@ -378,6 +384,7 @@ topgrade
 tribler
 trilium
 trivy
+tux-manager
 typora
 ubuntu-make
 ulauncher
