@@ -574,7 +574,7 @@ function list_debs() {
             printf '%s\n' "${INSTALLED_APPS[@]}"
             ;;
         (--not-installed)
-            printf '%s\n' "${APPS[@]##*/}" | comm -23  - <(printf '%s\n' "${INSTALLED_APPS[@]}")
+            printf '%s\n' "${APPS[@]##*/}" | comm  --nocheck-order -23  - <(printf '%s\n' "${INSTALLED_APPS[@]}")
             ;;
         (*)
             local PAD='                              '
