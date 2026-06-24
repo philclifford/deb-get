@@ -1,9 +1,9 @@
 DEFVER=2
-ARCHS_SUPPORTED="amd64 arm64 armhf"
+ARCHS_SUPPORTED="amd64 arm64"
 case ${HOST_ARCH} in
-    amd64) CODENAMES_SUPPORTED="bullseye bookworm trixie jammy noble plucky raring" ;;
-    arm64) CODENAMES_SUPPORTED="bullseye bookworm trixie jammy noble" ;;
-    armhf) CODENAMES_SUPPORTED="bullseye bookworm trixie focal" ;;
+    amd64) CODENAMES_SUPPORTED="bullseye bookworm trixie jammy noble questing resolute" ;;
+    arm64) CODENAMES_SUPPORTED="trixie jammy noble questing resolute" ;;
+    #armhf) CODENAMES_SUPPORTED="bullseye bookworm trixie focal" ;;
 esac
 get_website "https://www.veracrypt.fr/en/Downloads.html"
 if [ "${ACTION}" != "prettylist" ]; then
