@@ -1,12 +1,16 @@
 DEFVER=1
-CODENAMES_SUPPORTED="bookworm jammy noble" # only packaged for Debian 12, Ubuntu 22.04, Ubuntu 24.04
-get_github_releases "flameshot-org/flameshot" "latest"
+ARCHS_SUPPORTED="amd64 arm64 armhf"
+CODENAMES_SUPPORTED="trixie noble resolute" # only packaged for Debian 13 Ubuntu 26.04, Ubuntu 24.04
+get_github_releases "flameshot-org/flameshot" #"latest"
 if [ "${ACTION}" != "prettylist" ]; then
-    URL=$(grep -E "browser_download_url.*\.${UPSTREAM_ID}-${UPSTREAM_RELEASE}.*\.${HOST_ARCH}\.deb\"" "${CACHE_FILE}" | cut -d '"' -f 4)
+    URL=$(grep -m 1 -E "browser_download_url.*${UPSTREAM_ID}-${UPSTREAM_RELEASE}.*${HOST_ARCH}\.(deb|zip)\"" "${CACHE_FILE}" | cut -d '"' -f 4)
+    # URL=$(grep -m 1 -E "browser_download_url.*${UPSTREAM_ID}.${UPSTREAM_RELEASE}.*${HOST_ARCH}\.\(deb\|zip\)\"" "${CACHE_FILE}" | cut -d '"' -f 4)
     if [ -z "${URL}" ]; then
         URL=$(sort -r "${CACHE_FILE}" | grep -m 1 -E "browser_download_url.*\.${UPSTREAM_ID}-.*\.${HOST_ARCH}\.deb\"" | cut -d '"' -f 4)
     fi
-    VERSION_PUBLISHED=$(cut -d '/' -f 8 <<< "${URL//v/}")
+    # VERSION_PUBLISHED=$(cut -d '/' -f 8 <<< "${URL//v/}")
+    VERSION_PUBLISHED=$(cut -d '-' -f 3-4 <<< "${URL//v/}")
+    VERSION_PUBLISHED="${VERSION_PUBLISHED%.ubuntu*}"
 fi
 PRETTY_NAME="Flameshot"
 WEBSITE="https://flameshot.org/"
