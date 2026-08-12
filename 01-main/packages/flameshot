@@ -15,7 +15,7 @@ if [ "${ACTION}" != "prettylist" ]; then
     function post_download() {
         local deb
         deb=$(unzip -Z1 "${CACHE_DIR}/${FILE}" "*.deb" 2>/dev/null | head -1) || return 1
-        ${ELEVATE} unzip -jq "${CACHE_DIR}/${FILE}" "${deb}" -d "${CACHE_DIR}" || return 1
+        ${ELEVATE} unzip -jqo "${CACHE_DIR}/${FILE}" "${deb}" -d "${CACHE_DIR}" || return 1
         echo "Extracted ${deb} from ${FILE}"
         export FILE="$(basename "${deb}")"
         echo "File set to " ${FILE}
