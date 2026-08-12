@@ -1,17 +1,37 @@
 DEFVER=1
 ARCHS_SUPPORTED="amd64 arm64 armhf"
 CODENAMES_SUPPORTED="trixie noble resolute" # only packaged for Debian 13 Ubuntu 26.04, Ubuntu 24.04
-get_github_releases "flameshot-org/flameshot" #"latest"
+MINIMUM_DEB_GET_VERSION="0.4.7"
+# required for post_download
+if ! dpkg --compare-versions "${VERSION}" ge "${MINIMUM_DEB_GET_VERSION}"; then
+    if [ "${ACTION}" == "install" ]; then
+        fancy_message  warn "deb-get Version ${VERSION} does not support $APP. Please use version ${MINIMUM_DEB_GET_VERSION} or later."
+    fi
+fi
+get_github_releases "flameshot-org/flameshot" "" --no-filter #"latest"
 if [ "${ACTION}" != "prettylist" ]; then
     URL=$(grep -m 1 -E "browser_download_url.*${UPSTREAM_ID}-${UPSTREAM_RELEASE}.*${HOST_ARCH}\.(deb|zip)\"" "${CACHE_FILE}" | cut -d '"' -f 4)
+    # if [[ "${FILE}" =~ .*\.zip$ ]]; then
+    function post_download() {
+        local deb
+        deb=$(unzip -Z1 "${CACHE_DIR}/${FILE}" "*.deb" 2>/dev/null | head -1) || return 1
+        ${ELEVATE} unzip -jq "${CACHE_DIR}/${FILE}" "${deb}" -d "${CACHE_DIR}" || return 1
+        echo "Extracted ${deb} from ${FILE}"
+        export FILE="$(basename "${deb}")"
+        echo "File set to " ${FILE}
+    }
+    # fi
     # URL=$(grep -m 1 -E "browser_download_url.*${UPSTREAM_ID}.${UPSTREAM_RELEASE}.*${HOST_ARCH}\.\(deb\|zip\)\"" "${CACHE_FILE}" | cut -d '"' -f 4)
-    if [ -z "${URL}" ]; then
-        URL=$(sort -r "${CACHE_FILE}" | grep -m 1 -E "browser_download_url.*\.${UPSTREAM_ID}-.*\.${HOST_ARCH}\.deb\"" | cut -d '"' -f 4)
-    fi
-    # VERSION_PUBLISHED=$(cut -d '/' -f 8 <<< "${URL//v/}")
-    VERSION_PUBLISHED=$(cut -d '-' -f 3-4 <<< "${URL//v/}")
-    VERSION_PUBLISHED="${VERSION_PUBLISHED%.ubuntu*}"
+    # URL="$(grep -m 1 "browser_download_url.*icy_view_linux.*\.zip\"" "${CACHE_FILE}" | cut -d'"' -f4)"
+    # VERSION_PUBLISHED="$(echo "${URL}" | cut -d'/' -f8 | sed 's/[^0-9.]//g')"
+#    if [ -z "${URL}" ]; then
+#        URL=$(sort -r "${CACHE_FILE}" | grep -m 1 -E "browser_download_url.*\.${UPSTREAM_ID}-.*\.${HOST_ARCH}\.deb\"" | cut -d '"' -f 4)
+#    fi
+    VERSION_PUBLISHED=$(cut -d '/' -f 8 <<< "${URL//v/}")
+    # VERSION_PUBLISHED=$(cut -d '-' -f 3-4 <<< "${URL//v/}")
+    # VERSION_PUBLISHED="${VERSION_PUBLISHED%.ubuntu*}"
 fi
 PRETTY_NAME="Flameshot"
 WEBSITE="https://flameshot.org/"
 SUMMARY="Flameshot is a free and open-source, cross-platform tool to take screenshots with many built-in features to save you time."
+

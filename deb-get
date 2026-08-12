@@ -193,7 +193,7 @@ function get_github_releases() {
                 ${ELEVATE} rm "${CACHE_FILE}" 2>/dev/null
             fi
             if [[ " $* " != *' --no-filter '* ]]; then
-                ${ELEVATE} sed -i "/browser_download/!d;/\.deb/!d" ${CACHE_FILE}
+                ${ELEVATE} sed -i "/browser_download/!d;/\.\(deb\|zip\)$/!d" ${CACHE_FILE}
             fi
         fi
     fi
