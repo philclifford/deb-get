@@ -1,9 +1,20 @@
-DEFVER=2
+DEFVER=3
 # Debian should not use this repo (https://i3wm.org/docs/repositories.html)
 # See https://i3wm.org/docs/repositories.html
-CODENAMES_SUPPORTED="jammy noble plucky"
-GPG_KEY_ID="E3CA1A89941C42E6"
-APT_REPO_URL="http://debian.sur5r.net/i3/ ${UPSTREAM_CODENAME} universe"
+CODENAMES_SUPPORTED="jammy noble plucky resolute stonking"
+# They claim to support supported releases of Ubuntu but only have repos for certain versions
+# so we have to mangle the codename to match the available repository names and monitor for changes in the upstream repository structure
+case "${UPSTREAM_CODENAME}" in
+    plucky|resolute|stonking)
+        AVAILABLE_REPO="questing"
+        ;;
+    *)
+        AVAILABLE_REPO="${UPSTREAM_CODENAME}"
+        ;;
+esac
+
+GPG_KEY_ID="BFD90F4DAAEFA72B67BBAF48E3CA1A89941C42E6"
+APT_REPO_URL="http://debian.sur5r.net/i3/ ${AVAILABLE_REPO} universe"
 APT_REPO_OPTIONS="arch=amd64"
 PRETTY_NAME="i3"
 WEBSITE="https://i3wm.org/"
