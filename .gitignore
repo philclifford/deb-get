@@ -3,6 +3,7 @@ debian/*debhelper*
 debian/deb-get*
 
 rejections.md
+01-main/.shellcheckrc
 lunartests.tar.gz
 01-main/packages/done1
 01-main/packages/done2
